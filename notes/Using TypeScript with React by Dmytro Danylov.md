@@ -147,42 +147,46 @@ img[alt=pict08] {
     1. `"skipLibCheck": true`
         1. Tells `tsc` whether to ...
             1. type check declaration(*.d.ts) files (yours and 3rd party packages) in your proj.
+        1. Purpose
+            1. to reduce compile time of a project
+                1. by skipping the type checking of declarations
+                    1. which were tested by their authors
+                    1. which are known to work correctly
+
+            1. `tsc` won’t go deep into checking the types of the third party packages
+                1. still checks our code against type definitions provided by these packages.
+
+    1. `"files": ["./file1.ts", "./file2.d.ts", …]`
+        1. Lists files which `tsc` should always include in the compilation. 
+        1. files included using this option are included regardless of the `"exclude"` option.
+
+
+    1. `"include": ["src/**/*"]`
+        1. Lists files we’d like to be compiled
+            1. `"files"` option requires relative or absolute paths to the files
+            1. `"include"` option allows glob-like patterns, like:
+                - "**" - any subdirectory
+                - "*" - any file name
+                - "?" - a character followed by question mark becomes optional (e.g., "src/*.tsx?")
+                - "exclude": ["node_modules", "**/*/*.test.ts"]
+
+    1. `"exclude": ["node_modules", "**/*/*.test.ts"]`
+        1. Excludes files from compilation
+            1. accepts same patterns as "include" option
+        1. can use this option to filter files specified using "include" option
+        1. this option doesn’t affect the "files" option.
+        1. files/folders to exclude
+            1. node_modules, 
+            1. test files, 
+            1. compilation output directory
             
+        1. if `exclude` is never used...
+            1. `tsc` will exclude folder specified using "outDir" option.
 
-The idea behind this option is to reduce the compile time of a project, by skipping the type checking of the declarations which are already tested by their authors and are known to work correctly.
-
-Also, it might happen that you use a few packages whose type definitions are incompatible. Or, you’re importing a package that was built using a tsconfig which is less strict than yours (e.g., your config has the "strict" option enabled, while the other config has it disabled). In these cases the compiler will produce errors while type checking those packages.
-
-With this option enabled the compiler won’t go deep into checking the types of the third party packages, but it will still check our code against the type definitions provided by these packages.
-
-I have published a detailed article about this option on my website: TypeScript: the skipLibCheck Option Explained. Please have a look at it for a more detailed explanation and a few examples.
-
-
-"files": ["./file1.ts", "./file2.d.ts", …]
-
-We use this option to list the files which the compiler should always include in the compilation. The files included using this option are included regardless of the "exclude" option.
-
-
-"include": ["src/**/*"]
-
-We use this option to list the files we’d like to be compiled. While the "files" option requires relative or absolute paths to the files, the "include" option allows glob-like patterns, like:
-
-"**" - any subdirectory
-
-"*" - any file name
-
-"?" - a character followed by the question mark becomes optional (e.g., "src/*.tsx?")
-
-
-"exclude": ["node_modules", "**/*/*.test.ts"]
-
-This option excludes the files from the compilation. It accepts the same patterns as the "include" option. You can use this option to filter the files specified using the "include" option. The "exclude" option doesn’t affect the "files" option.
-
-Usually, you’d like to exclude node_modules, test files, and the compilation output directory.
-
-If you omit this option, the compiler will exclude the folder specified using the "outDir" option.
-
-If you won’t specify both options, "files" and "include", the compiler will compile all the TS files from the root directory and any subdirectory excluding the files specified using the "exclude" option.
+    1. If `"files"` and `"include"` are NOT specified...
+        1. `tsc` will compile all TS files ...
+            1. from root directory and any subdirectory ...
+            1. excluding files specified using `"exclude"` option.
 
                     
 </details>
