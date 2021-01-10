@@ -201,31 +201,48 @@ img[alt=pict08] {
     1. Boolean
         1. ![pict04](img/c01s01.1.jpg)
     1. Number
-        1. ![](img/c01s01.2.jpg)
+        1. ![pict08](img/c01s01.2.jpg)
     1. String
         1. Don't forget `'` and `"` are different
-        1. ![](img/c01s01.3.png) 
+        1. ![pict06](img/c01s01.3.png) 
     1. Nulls
-        1. ![](img/c01s01.4.png)
-            1. ![](img/c01s01.5.png)
+        1. ![pict08](img/c01s01.4.png)
+            1. ![pict08](img/c01s01.5.png)
         1. Strict null checks
             1. Pro
                 1. It will red-check and read into code
             1. Con
                 1. It will prevent you from assigning null
-                    1. ![](img/c01s01.6.png)
+                    1. ![pict08](img/c01s01.6.png)
                 1. Only way around it... if check
-                    1. ![](img/c01s01.7.png) 
+                    1. ![pict08](img/c01s01.7.png) 
     1. Primitive Types
         1. ![](img/c01s01.8.png)
     1. Objects
         1. CANNOT ASSIGN a Primative Type... must be an object
-            1. ![](img/c01s01.9.png)
+            1. ![pict08](img/c01s01.9.png)
         1. CAN ASSIGN
             1. Array
+                1. ![pict06](img/c01s01.10.png)
             1. Map
             1. Object
             1. Void
+    1. Void
+        1. describes an absence of a value
+        1. used with dunctions
+            1. ![](img/c01s01.11.png)
+            1. ![](img/c01s01.12.jpg)
+    1. Tuple
+        1. like an array.... but you can mix types
+            1. ![](img/c01s01.13.jpg)
+    1. Enum
+        1. Allows you define assignable variable
+            1. ![](img/c01s01.14.jpg)
+            1. ![](img/c01s01.15.jpg)
+        1. Why use it?
+            1. Forces users/programs to use a set of values
+                1. Instead of using `number` for a question
+                    1. use an `enum` of `1`, `2`, `3`, or `4`
 </details>
 
 1. Quiz 2: Types - Quiz
