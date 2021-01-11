@@ -437,6 +437,14 @@ img[alt=pict08] {
         1. What about boolean?
             1. ![](img/c01s08.03.png)
     1. Applying Unions with Types
+        1. Scenario... Dog and Cat interfaces
+            1. ![](img/c01s08.04.jpg)
+        1. Problems when you union and join the methods
+            1. Trying to make a `Cat` `.bark()`
+                1. ![](img/c01s08.05.jpg)
+            1. Solution
+                1. ASSERT that it is dog PRIOR TO `.bark()`
+    1. Another Solution -- Custom Type Guard
             
             
 </details>
