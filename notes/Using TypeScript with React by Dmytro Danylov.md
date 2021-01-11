@@ -257,9 +257,10 @@ img[alt=pict08] {
 1. Types part 2
     1. Interfaces
         1. When to use...
-            1. When you want to describe... but not use
-                1. 
-            1. 
+            1. Creating a pizza with ONLY `class`
+                1. ![](img/c01s02.11.jpg)
+            1. When you describe a pizza ... but not use
+                1. ![](img/c01s02.10.jpg)
         1. Why does this work?
             1. ![](img/c01s02.01.png)
                 1. because both variables have the same shape
