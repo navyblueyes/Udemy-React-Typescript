@@ -372,6 +372,61 @@ img[alt=pict08] {
         1. ![](img/c01s07.03.png)
     1. Importing generic INSIDE of a function
         1. ![](img/c01s07.04.png)
+    1. Big benefit of using generic
+        1. use on both `instance` side and `static`/`class` side
+            1. ![](img/c01s07.05.jpg)
+    1. Exercise -- Cakes
+        1. `any` is a problem? How would you get `items` away from `any`?
+            1. ![](img/c01s07.06.jpg)
+                1. Import `<Item>` to the argument and specify `items` as an array of `<Item>` type 
+                1. ![](img/c01s07.07.jpg)
+        1. Another problem... `<Item>` does not describe a `.expiryDate`
+            1. ![](img/c01s07.08.png)
+                1. `extend` the parent class that owns that property
+                1. ![](img/c01s07.09.jpg)
+        1. Using generics for specific cakes
+            1. Define interface that extends the `expiryDate`
+                1. ![](img/c01s07.11.png)
+                    1. `ChocolateCake` gets its own interface
+                    1. `VanillaCake` gets its own interface
+            1. Assign the interface to get only ChocolateCakes / VanillaCakes
+                1. ![](img/c01s07.10.jpg) 
+        1. Creating a function that retrieves an array of expired cakes
+            1. ![](img/c01s07.12.jpg)
+                1. Functions does NOT import generic
+                1. Import generic as an extended version
+                    1. ![](img/c01s07.13.png)
+                1. Specify that the function ...
+                    1. takes in an array of said generic
+                        1. ![](img/c01s07.14.png)
+                    1. outputs an array of said generic
+                        1. ![](img/c01s07.15.png)
+    1. Exercise -- Shopping cart
+        1. Create an interface for `ShoppingCart` that holds an array of `items` that allows you to add and get by id
+            1. ![](img/c01s07.16.png)
+                1. Two key properties
+                    1. `price` and `id` of item
+                1. Need to pass two important types
+                    1. `<ItemId>` and `<Item>`
+        1. Create `cart` that instiates an instance of `ShoppingCart` and specifies the methods
+            1. ![](img/c01s07.17.png)
+        1. Problem
+            1. `items` is registered as `any`
+            1. SOLUTION - specify `this` for `ShoppingCart`'s methods
+                1. ![](img/c01s07.18.jpg)
+            1. Check
+                1. ![](img/c01s07.19.png)
+        1. Problem
+            1. ...but `getItemById` has an error
+                1. ![](img/c01s07.20.jpg)
+                1. `undefined` is NOT accepted within our defintion of `Item`
+                    1. `.find` has the potential of returning `undefined`... `undefined` must be a returnable type if you use `.find`
+            1. SOLUTION
+                1. Instead of backtracting to the original `Item` type...
+                1. Merely attach `undefined` to the method's return type
+                    
+            
+            
 </details>
 
 1. Quiz 2: Types - Quiz
