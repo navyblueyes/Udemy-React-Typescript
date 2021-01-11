@@ -243,6 +243,30 @@ img[alt=pict08] {
             1. Forces users/programs to use a set of values
                 1. Instead of using `number` for a question
                     1. use an `enum` of `1`, `2`, `3`, or `4`
+    1. Walk through
+        1. abbreviate your target
+            1. ![](img/c01s01.16.png)
+        1. type guard your response logic
+            1. ![](img/c01s01.17.png)
+        1. check your type logic
+            1. ![](img/c01s01.18.png)
+        1. assert as HTML input element
+            1. ![](img/c01s01.19.png)
+        1. NOTE!!!!!
+            1. `<generics>` conflict with JSX in `.tsx` files
+1. Types part 2
+    1. Interfaces
+        1. Why does this work?
+            1. ![](img/c01s02.01.png)
+                1. because both variables have the same shape
+                1. when you add another variable
+                    1. ![](img/c01s02.02.png)
+                1. you get an error
+                    1. ![](img/c01s02.03.png)
+        1. Make a parameter optional
+            1. ![](img/c01s02.04.png)
+        1. Make a parameter immutable [can't be changed once accpeted]
+            1. ![](img/c01s02.05.jpg)
 </details>
 
 1. Quiz 2: Types - Quiz
