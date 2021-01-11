@@ -362,6 +362,16 @@ img[alt=pict08] {
                 1. ![](img/c01s05.19.jpg)
             1. recogizes the generic
                 1. ![](img/c01s05.20.png)
+1. Generics
+    1. Generics
+        1. Custom Types
+    1. Importing a Generic
+        1. ![](img/c01s07.01.png)
+    1. Importing multiple Generic to use within a `function`
+        1. ![](img/c01s07.02.png)
+        1. ![](img/c01s07.03.png)
+    1. Importing generic INSIDE of a function
+        1. ![](img/c01s07.04.png)
 </details>
 
 1. Quiz 2: Types - Quiz
