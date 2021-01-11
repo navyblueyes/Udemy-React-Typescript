@@ -267,6 +267,14 @@ img[alt=pict08] {
             1. ![](img/c01s02.04.png)
         1. Make a parameter immutable [can't be changed once accpeted]
             1. ![](img/c01s02.05.jpg)
+            1. ![](img/c01s02.06.jpg)
+    1.  Index Signature
+        1. establishing the index's type
+            1. ![](img/c01s02.07.png)
+    1. Call signature
+        1. establishing the return's type
+            1. ![](img/c01s02.08.png)
+            
 </details>
 
 1. Quiz 2: Types - Quiz
