@@ -274,7 +274,20 @@ img[alt=pict08] {
     1. Call signature
         1. establishing the return's type
             1. ![](img/c01s02.08.png)
+    1. Extending Interface
+        1. Similar to extending a class
+            1  Can combine... but NOT MODIFY if a child
+            1. ![](img/c01s02.09.png)
             
+1. Functions
+    1. Basic Format for typing
+        1. ![](img/c01s03.01.png)
+    1. Cool tricks
+        1. specifying that all arguments should be numbers.
+            1. ![](img/c01s03.02.png)
+        1. Specifying first to be a sting, secong boolean, and rest as numbers
+            1. ![](img/c01s03.03.png)
+        1. 
 </details>
 
 1. Quiz 2: Types - Quiz
