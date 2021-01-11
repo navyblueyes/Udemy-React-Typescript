@@ -319,7 +319,16 @@ img[alt=pict08] {
             1. ![](img/c01s04.11.png)
             1. ![](img/c01s04.12.png)
         1. `static` variables / methods CANNOT be inherited by `super`
-        
+1. ECMAscript Private Fields
+    1. Annotate private fields with `#`
+        1. ![](img/c01s05.01.png)
+    1. So what is new?
+        1. Preventes Other class from taking the name
+            1. ![](img/c01s05.02.png)
+        1. ![](img/c01s05.03.png)
+    1. `#` vs `private`
+        1. ![](img/c01s05.04.png)
+        1. ![](img/c01s05.05.jpg)
 </details>
 
 1. Quiz 2: Types - Quiz
