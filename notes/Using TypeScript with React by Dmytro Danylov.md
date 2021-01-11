@@ -283,7 +283,24 @@ img[alt=pict08] {
         1. Similar to extending a class
             1  Can combine... but NOT MODIFY if a child
             1. ![](img/c01s02.09.png)
-            
+    1. Interface vs. Types
+        1. Interface format
+            1. ![](img/c01s02.12.jpg)
+        1. Type format
+            1. ![](img/c01s02.13.jpg)
+        1. Putting it with Class
+            1. ![](img/c01s02.14.jpg)
+        1. Working with function
+            1. How it works with `type`
+                1. ![](img/c01s02.15.jpg)
+            1. How it works with `interface`
+                1. ![](img/c01s02.16.jpg)
+                1. ![](img/c01s02.17.jpg)
+                
+https://ultimatecourses.com/blog/typescript-interfaces-vs-types
+
+        1. ![](img/c01s02.18.jpg)
+        1. ![](img/c01s02.19.jpg)
 1. Functions
     1. Basic Format for typing
         1. ![](img/c01s03.01.png)
