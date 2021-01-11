@@ -229,7 +229,7 @@ img[alt=pict08] {
             1. Void
     1. Void
         1. describes an absence of a value
-        1. used with dunctions
+        1. used with functions
             1. ![](img/c01s01.11.png)
             1. ![](img/c01s01.12.jpg)
     1. Tuple
@@ -256,6 +256,10 @@ img[alt=pict08] {
             1. `<generics>` conflict with JSX in `.tsx` files
 1. Types part 2
     1. Interfaces
+        1. When to use...
+            1. When you want to describe... but not use
+                1. 
+            1. 
         1. Why does this work?
             1. ![](img/c01s02.01.png)
                 1. because both variables have the same shape
@@ -320,6 +324,15 @@ img[alt=pict08] {
             1. ![](img/c01s04.12.png)
         1. `static` variables / methods CANNOT be inherited by `super`
             1. ![](img/c01s05.11.jpg)
+        1. Why use `static` variables / methods at all?
+            1. Allows you to invoke within subclass without invoking parent
+                1. Creating a `PizzaMaker` class
+                    1. ![](img/c01s04.13.jpg)
+                1. Implementing static allows you to return a new class with
+                    1. ![](img/c01s04.14.jpg)
+                1. Without `static`
+                    1. ![](img/c01s04.15.jpg)
+                    
 1. ECMAscript Private Fields
     1. Annotate private fields with `#`
         1. ![](img/c01s05.01.png)
