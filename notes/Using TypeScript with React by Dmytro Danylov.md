@@ -319,6 +319,7 @@ img[alt=pict08] {
             1. ![](img/c01s04.11.png)
             1. ![](img/c01s04.12.png)
         1. `static` variables / methods CANNOT be inherited by `super`
+            1. ![](img/c01s05.11.jpg)
 1. ECMAscript Private Fields
     1. Annotate private fields with `#`
         1. ![](img/c01s05.01.png)
@@ -329,6 +330,38 @@ img[alt=pict08] {
     1. `#` vs `private`
         1. ![](img/c01s05.04.png)
         1. ![](img/c01s05.05.jpg)
+1. Interfaces
+    1. Creating a Shopping Cart and SpendingCalculator
+        1. Calculator exports a function `calculateTotalAmount`
+            1. Takes in `IOrder` and returns cost after discount and tax
+            1. ![](img/c01s05.07.jpg)
+        1. When you want a class to assume an interface...
+            1. ![](img/c01s05.06.png)
+        1. Connecting the two
+            1. ![](img/c01s05.08.jpg)
+            1. `Shopping-Cart.ts` implements `IOrder`, but nevers sees how `caclulateTotalAmount` works
+        1. Tying code via `interface` is a solid way of privatizing data
+            1. ![](img/c01s05.09.jpg)
+            1. ![](img/c01s05.10.jpg)
+    1. What you can use with interfaces
+        1. Cannot access both `instance` within `constructor` and `static`
+            1. ![](img/c01s05.12.png)
+        1. ![](img/c01s05.13.png)
+        1. ![](img/c01s05.14.png)
+        1. If you set an interface
+            1. ![](img/c01s05.15.png)
+        1. And you implement a class
+            1. ![](img/c01s05.16.png)
+        1. And you utilize class method
+            1. ![](img/c01s05.17.png)
+                1. TS only sees the interface `Animal` and NOT `dog` class
+        1. if you force the recognition of `Animal`'s instance of `dog` via generics
+            1. ![](img/c01s05.18.jpg)
+        1. you can have BOTH `Animal` methods and `dog` methods by...
+            1. using generics and extending the parent class
+                1. ![](img/c01s05.19.jpg)
+            1. recogizes the generic
+                1. ![](img/c01s05.20.png)
 </details>
 
 1. Quiz 2: Types - Quiz
