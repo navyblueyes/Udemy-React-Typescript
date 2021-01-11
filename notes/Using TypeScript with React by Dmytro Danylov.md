@@ -287,7 +287,39 @@ img[alt=pict08] {
             1. ![](img/c01s03.02.png)
         1. Specifying first to be a sting, secong boolean, and rest as numbers
             1. ![](img/c01s03.03.png)
-        1. 
+    1. Walk Through
+        1. How do you calculate area with types
+            1. ![](img/c01s03.04.png)
+        1. Set a conditional for two
+            1. ![](img/c01s03.05.jpg)
+
+1. Classes
+    1. Construct a class
+        1. ![](img/c01s04.01.jpg)
+    1. Extend a class
+        1. ![](img/c01s04.02.png)
+            1. `super` refers to the parent... `Robot`
+            1. `this` refers to the instance... `FlyingRobot`
+    1. Implement class
+        1. ![](img/c01s04.03.png)
+    1. Modifying class properties
+        1. ![](img/c01s04.04.jpg)
+            1. ![](img/c01s04.05.jpg)
+        1. ![](img/c01s04.06.jpg)
+            1. Cannot be accessed OUTSIDE of class
+                1. ![](img/c01s04.07.jpg)
+            1. Still accessible to subclasses
+                1. ![](img/c01s04.08.png)
+    1. `set` methods in class
+        1. ![](img/c01s04.09.png)
+            1. Ensure to call properties as `this.`
+                1. ensures to reference the INSTANCE... not class as a whole
+        1. Example
+            1. ![](img/c01s04.10.jpg)
+            1. ![](img/c01s04.11.png)
+            1. ![](img/c01s04.12.png)
+        1. `static` variables / methods CANNOT be inherited by `super`
+        
 </details>
 
 1. Quiz 2: Types - Quiz
