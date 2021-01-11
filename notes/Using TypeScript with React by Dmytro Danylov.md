@@ -365,6 +365,10 @@ img[alt=pict08] {
 1. Generics
     1. Generics
         1. Custom Types
+            1. cannot use generic type parameters to describe ...
+                1. static properties 
+                1. static methods.
+            1. ![](img/c01s07.21.png)
     1. Importing a Generic
         1. ![](img/c01s07.01.png)
     1. Importing multiple Generic to use within a `function`
@@ -424,7 +428,15 @@ img[alt=pict08] {
             1. SOLUTION
                 1. Instead of backtracting to the original `Item` type...
                 1. Merely attach `undefined` to the method's return type
-                    
+1. Union
+    1. Problem -- string methods with numbers
+        1. Using a union when you call a string method.
+            1. ![](img/c01s08.01.jpg)
+        1. Solution - type guard `if`
+            1. ![](img/c01s08.02.png)
+        1. What about boolean?
+            1. ![](img/c01s08.03.png)
+    1. Applying Unions with Types
             
             
 </details>
