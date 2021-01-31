@@ -534,9 +534,19 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Intersection Type
-    1. 
-        1. 
-
+    1. Purpose
+        1. Combines `&` types/interfaces into a singular type
+    1. Example
+        1. ![](img/c01s09.01.png) 
+        1. ![](img/c01s09.02.jpg)
+        1. PROBLEM
+            1. ![](img/c01s09.03.jpg)
+            1. `resultObj` is an `any` type
+        1. SOLUTION
+            1. declaring inputs as types `ObjA` and `ObjB`
+                1. ![](img/c01s09.04.jpg)
+            1. check if TS acknowledged
+                1. ![](img/c01s09.05.jpg)
 </details>
 
 ##### Type Alias
