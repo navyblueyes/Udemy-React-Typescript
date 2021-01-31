@@ -14,12 +14,7 @@ img[alt=pict08] {
 
 # Using TypeScript with React by Dmytro Danylov
 
-#### Section 1 TypeScript
-
-<details>
-<summary>Expand</summary>
-
-1. Common TypeScript compiler and tsconfig options
+#### Section 1 Intro
 
 <details>
 <summary>Expand</summary>
@@ -126,7 +121,6 @@ img[alt=pict08] {
             1. `classic`
                 1. `classic` is deprecated 
                 1. only for backwards compatibility.
-
     1. `"esModuleInterop": true`
         1. Allows us to `import default` from commonjs modules 
             1. modules that don’t have a default export 
@@ -141,9 +135,7 @@ img[alt=pict08] {
         1. `"preserve"` option leaves JSX as is in compiled files
         1. `"react"` option turns JSX into the React API calls 
             - e.g., React.createElement('div')
-
         1. Usually `preserve` leaves the JSX transformation to a different tool in our build chain (e.g., Babel).
-
     1. `"skipLibCheck": true`
         1. Tells `tsc` whether to ...
             1. type check declaration(*.d.ts) files (yours and 3rd party packages) in your proj.
@@ -152,15 +144,11 @@ img[alt=pict08] {
                 1. by skipping the type checking of declarations
                     1. which were tested by their authors
                     1. which are known to work correctly
-
             1. `tsc` won’t go deep into checking the types of the third party packages
                 1. still checks our code against type definitions provided by these packages.
-
     1. `"files": ["./file1.ts", "./file2.d.ts", …]`
         1. Lists files which `tsc` should always include in the compilation. 
         1. files included using this option are included regardless of the `"exclude"` option.
-
-
     1. `"include": ["src/**/*"]`
         1. Lists files we’d like to be compiled
             1. `"files"` option requires relative or absolute paths to the files
@@ -169,7 +157,6 @@ img[alt=pict08] {
                 - "*" - any file name
                 - "?" - a character followed by question mark becomes optional (e.g., "src/*.tsx?")
                 - "exclude": ["node_modules", "**/*/*.test.ts"]
-
     1. `"exclude": ["node_modules", "**/*/*.test.ts"]`
         1. Excludes files from compilation
             1. accepts same patterns as "include" option
@@ -179,10 +166,8 @@ img[alt=pict08] {
             1. node_modules, 
             1. test files, 
             1. compilation output directory
-            
         1. if `exclude` is never used...
             1. `tsc` will exclude folder specified using "outDir" option.
-
     1. If `"files"` and `"include"` are NOT specified...
         1. `tsc` will compile all TS files ...
             1. from root directory and any subdirectory ...
@@ -191,12 +176,15 @@ img[alt=pict08] {
                     
 </details>
 
-1. TypeScript Section Introduction
+#### Section 2 TypeScript
 
 <details>
 <summary>Expand</summary>
 
-1. Modules
+##### Types
+
+<details>
+<summary>Expand</summary>
 1. Types
     1. Boolean
         1. ![pict04](img/c01s01.1.jpg)
@@ -296,14 +284,12 @@ img[alt=pict08] {
             1. How it works with `interface`
                 1. ![](img/c01s02.16.jpg)
                 1. ![](img/c01s02.17.jpg)
-                
-https://ultimatecourses.com/blog/typescript-interfaces-vs-types
-
         1. ![](img/c01s02.18.jpg)
         1. ![](img/c01s02.19.jpg)
 
 </details>
 
+##### Functions
 
 <details>
 <summary>Expand</summary>
@@ -323,6 +309,9 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
             1. ![](img/c01s03.05.jpg)
 
 </details>
+
+##### Classes
+
 
 <details>
 <summary>Expand</summary>
@@ -366,6 +355,8 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
 </details>
 
 
+##### Private Fields
+
 <details>
 <summary>Expand</summary>
                     
@@ -379,6 +370,15 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
     1. `#` vs `private`
         1. ![](img/c01s05.04.png)
         1. ![](img/c01s05.05.jpg)
+
+</details>
+
+
+##### Interfaces
+
+<details>
+<summary>Expand</summary>
+
 1. Interfaces
     1. Creating a Shopping Cart and SpendingCalculator
         1. Calculator exports a function `calculateTotalAmount`
@@ -414,6 +414,8 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
 
 
 </details>
+
+##### Generics
 
 <details>
 <summary>Expand</summary>
@@ -487,6 +489,8 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
 
 </details>
 
+##### Union
+
 <details>
 <summary>Expand</summary>
 
@@ -524,74 +528,303 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
 
 </details>
 
-<details>
-<summary>Expand</summary>
-
-1. Interfaces
-
-</details>
+##### Intersection
 
 <details>
 <summary>Expand</summary>
 
-1. Functions
-
-</details>
-
-1. Classes
-1. Quiz 3: Classes - Quiz
-1. ECMAScript Private Fields
-1. Implementing Interfaces
-1. Describing Classes Using Interfaces
-1. Generics
-1. Quiz 4: Generics - Quiz
-1. Union Type
-1. Quiz 5: Union Type - Quiz
 1. Intersection Type
-1. Quiz 6: Intersection Type - Quiz
+    1. 
+        1. 
+
+</details>
+
+##### Type Alias
+
+<details>
+<summary>Expand</summary>
+
+
 1. Type Alias
-1. Quiz 7: Type Alias - Quiz
+    1. 
+        1. 
+
+</details>
+
+##### External Packages / Types
+
+<details>
+<summary>Expand</summary>
+
 1. Using External Packages and Their Types
+    1. 
+        1. 
+
+</details>
+
+##### Declaration Merging
+
+<details>
+<summary>Expand</summary>
+
 1. Declaration Merging
+    1. 
+        1. 
+
+</details>
+
+##### Utility Types
+
+<details>
+<summary>Expand</summary>
+
 1. Utility Types
+    1. 
+        1. 
+
+</details>
+
+##### Mapped Types
+
+<details>
+<summary>Expand</summary>
+
 1. Mapped Types
+    1. 
+        1. 
+
+</details>
+
+##### Conditional Types
+
+<details>
+<summary>Expand</summary>
+
 1. Conditional Types
+    1. 
+        1. 
+
+</details>
+
+##### TS Tips
+
+<details>
+<summary>Expand</summary>
+
 1. 25. TypeScript Tips
+    1. 
+        1. 
 
 </details>
 
 <hr />
 
+</details>
 
 
 
-#### Section 2 TypeScript With React
 
 <details>
 <summary>Expand</summary>
 
-1. Section info
+#### Section 2 TypeScript With React
+
+##### Intro
+
+<details>
+<summary>Expand</summary>
+
 1. TypeScript with React - section Intro
+    1. 
+        1. 
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. What is webpack?
+    1. 
+        1. 
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up a webpack project
+    1. 
+        1. 
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. TypeScript setup options
+    1. 
+        1. 
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up TypeScript using ts-loader
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up TypeScript using babel-loader
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Adding React
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Adding a source map
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Function components
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up CSS Modules
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Importing SVGs - adding a logo
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Class components
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Handling events using React
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Using React context and the useState
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Replacing setState with useReducer
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Store cart data in local storage (useEffect hook)
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Creating a Higher Order Component - part 1
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Creating a Higher Order Component - part 2
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Creating a Render Props component
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Creating a custom hook
+
+</details>
+
+##### What is webpack
+
+<details>
+<summary>Expand</summary>
+
 1. Handling original DOM events
+
+</details>
 
 </details>
 
