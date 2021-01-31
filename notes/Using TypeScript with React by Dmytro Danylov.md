@@ -540,13 +540,28 @@ img[alt=pict08] {
         1. ![](img/c01s09.01.png) 
         1. ![](img/c01s09.02.jpg)
         1. PROBLEM
-            1. ![](img/c01s09.03.jpg)
-            1. `resultObj` is an `any` type
-        1. SOLUTION
-            1. declaring inputs as types `ObjA` and `ObjB`
-                1. ![](img/c01s09.04.jpg)
-            1. check if TS acknowledged
-                1. ![](img/c01s09.05.jpg)
+            1. Overview
+                1. ![](img/c01s09.03.jpg)
+                1. `resultObj` is an `any` type
+            1. SOLUTION Part 1
+                1. declaring inputs as types `ObjA` and `ObjB`
+                    1. ![](img/c01s09.04.jpg)
+                1. check if TS acknowledged
+                    1. ![](img/c01s09.05.jpg)
+            1. SOLUTION Part 2
+                1. explicitly declaring type returned
+                1. ![](img/c01s09.06.jpg)
+        1. PROBLEM #2
+            1. OVERVIEW
+                1. ![](img/c01s09.07.jpg)
+                1. `objA` and `objB` can be different types
+            1. SOLUTION part 1
+                1. Force them as objects via `extends object`
+                    1. ![](img/c01s09.08.jpg)
+                1. Check
+                    1. ![](img/c01s09.09.jpg)
+                1. Using object
+                    1. ![](img/c01s09.10.jpg)
 </details>
 
 ##### Type Alias
