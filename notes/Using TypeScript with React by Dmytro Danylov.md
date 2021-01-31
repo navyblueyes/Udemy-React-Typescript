@@ -475,9 +475,19 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
                 1. ![](img/c01s08.05.jpg)
             1. Solution
                 1. ASSERT that it is dog PRIOR TO `.bark()`
+                    1. ![](img/c01s08.06.jpg)            
+                1. Assertion is UGLY...
     1. Another Solution -- Custom Type Guard
-            
-            
+        1. set a function for dog-checking
+            1. ![](img/c01s08.07.jpg)
+                1. `: SomeObj is Dog { /* something dog does !== undefined */}`
+                    1. sets `SomeObj` to dog **ONLY IF** `{}` returns true
+        1. insert type guard
+            1. before
+                1. ![](img/c01s08.08.jpg)
+            1. after
+                1. ![](img/c01s08.09.jpg)
+                
 </details>
 
 1. Quiz 2: Types - Quiz
