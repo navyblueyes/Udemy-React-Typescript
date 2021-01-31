@@ -301,6 +301,13 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
 
         1. ![](img/c01s02.18.jpg)
         1. ![](img/c01s02.19.jpg)
+
+</details>
+
+
+<details>
+<summary>Expand</summary>
+
 1. Functions
     1. Basic Format for typing
         1. ![](img/c01s03.01.png)
@@ -314,6 +321,11 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
             1. ![](img/c01s03.04.png)
         1. Set a conditional for two
             1. ![](img/c01s03.05.jpg)
+
+</details>
+
+<details>
+<summary>Expand</summary>
 
 1. Classes
     1. Construct a class
@@ -350,6 +362,12 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
                     1. ![](img/c01s04.14.jpg)
                 1. Without `static`
                     1. ![](img/c01s04.15.jpg)
+
+</details>
+
+
+<details>
+<summary>Expand</summary>
                     
 1. ECMAscript Private Fields
     1. Annotate private fields with `#`
@@ -393,6 +411,13 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
                 1. ![](img/c01s05.19.jpg)
             1. recogizes the generic
                 1. ![](img/c01s05.20.png)
+
+
+</details>
+
+<details>
+<summary>Expand</summary>
+
 1. Generics
     1. Generics
         1. Custom Types
@@ -459,18 +484,24 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
             1. SOLUTION
                 1. Instead of backtracting to the original `Item` type...
                 1. Merely attach `undefined` to the method's return type
+
+</details>
+
+<details>
+<summary>Expand</summary>
+
 1. Union
     1. Problem -- string methods with numbers
         1. Using a union when you call a string method.
             1. ![](img/c01s08.01.jpg)
         1. Solution - type guard `if`
             1. ![](img/c01s08.02.png)
-        1. What about boolean?
+        1. What if you want to use boolean?
             1. ![](img/c01s08.03.png)
-    1. Applying Unions with Types
+    1. Applying Unions with Interfaces
         1. Scenario... Dog and Cat interfaces
             1. ![](img/c01s08.04.jpg)
-        1. Problems when you union and join the methods
+        1. Problem - union - interfaces have different methods
             1. Trying to make a `Cat` `.bark()`
                 1. ![](img/c01s08.05.jpg)
             1. Solution
@@ -487,12 +518,26 @@ https://ultimatecourses.com/blog/typescript-interfaces-vs-types
                 1. ![](img/c01s08.08.jpg)
             1. after
                 1. ![](img/c01s08.09.jpg)
-                
+    1. Overall
+        1. no way to properly type check
+            1. without checking the type methods
+
 </details>
 
-1. Quiz 2: Types - Quiz
+<details>
+<summary>Expand</summary>
+
 1. Interfaces
+
+</details>
+
+<details>
+<summary>Expand</summary>
+
 1. Functions
+
+</details>
+
 1. Classes
 1. Quiz 3: Classes - Quiz
 1. ECMAScript Private Fields
