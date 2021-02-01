@@ -594,8 +594,10 @@ img[alt=pict08] {
         1. ![](img/c01s11.01.jpg)
     1. To go to dependency
         1. ![](img/c01s11.02.jpg)
-    1. 
-        1. 
+        1. ![](img/c01s11.03.jpg)
+    1. Checking for dependencies
+        1. Hovering over `'library'`
+            1. ![](img/c01s11.04.jpg)
 
 </details>
 
@@ -605,8 +607,17 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Declaration Merging
-    1. 
-        1. 
+    1. You can merge
+        1. Declaration
+        1. Interfaces
+        1. Namespaces
+    1. ... but ... you can't merge
+        1. Modules...
+            1. just modify them
+    1. three different interfaces
+        1. ![](img/c01s12.01.jpg)
+        1. implementing a cart that allows for BOTH versions of `calculateTotal()`
+            1. ![](img/c01s12.02.jpg)
 
 </details>
 
