@@ -614,10 +614,28 @@ img[alt=pict08] {
     1. ... but ... you can't merge
         1. Modules...
             1. just modify them
-    1. three different interfaces
-        1. ![](img/c01s12.01.jpg)
-        1. implementing a cart that allows for BOTH versions of `calculateTotal()`
-            1. ![](img/c01s12.02.jpg)
+    1. Merging interfaces
+        1. three different interfaces
+            1. ![](img/c01s12.01.jpg)
+            1. implementing a cart that allows for BOTH versions of `calculateTotal()`
+                1. ![](img/c01s12.02.jpg)
+    1. Merging namespaces
+        1. merging two namespaces
+            1. ![](img/c01s12.03.jpg)
+            1. defining an interface that draws from BOTH versions of `MyNamespace`
+                1. ![](img/c01s12.04.jpg)
+        1. Merging namespaces
+            1. Allows you to add functions to types
+                1. Merging functions into a namespace
+                    1. ![](img/c01s12.05.jpg)
+                        1. `someFunction` now has `someProperty` attached
+                        1. ![](img/c01s12.06.jpg)
+                1. Merging `enum` into a namespace
+                    1. ![](img/c01s12.07.jpg)
+                        1. utilized `namespace` to add a function to an `enum`
+                    1. ![](img/c01s12.08.jpg)
+        1. 
+        
 
 </details>
 
