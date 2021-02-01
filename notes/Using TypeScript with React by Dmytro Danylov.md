@@ -571,8 +571,11 @@ img[alt=pict08] {
 
 
 1. Type Alias
-    1. 
+    1. When to use
+        1. ![](img/c01s10.01.jpg)
         1. 
+    1. Quiz
+        1. ![](img/c01s10.02.png)
 
 </details>
 
@@ -582,6 +585,16 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Using External Packages and Their Types
+    1. Definition
+        1. Create a name for a custom type
+            1. Union
+            1. Intersection
+            1. Generic
+            1. Interface
+    1. 
+        1. 
+    1. 
+        1. 
     1. 
         1. 
 
