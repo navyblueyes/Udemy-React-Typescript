@@ -655,6 +655,15 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Utility Types
+    1. Definition
+        1. Exportable modifier that can be reused to ...
+            1. modify types
+        1. ![](img/c01s13.01.jpg)
+    1. `Partial<T>`
+        1. Definition
+            1. converts required properties of interface into optional
+        1. Overview
+            1. ![](img/c01s13.02.jpg)
     1. 
         1. 
 
