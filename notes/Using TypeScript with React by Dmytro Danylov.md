@@ -664,8 +664,102 @@ img[alt=pict08] {
             1. converts required properties of interface into optional
         1. Overview
             1. ![](img/c01s13.02.jpg)
-    1. 
-        1. 
+        1. Example
+            1. ![](img/c01s13.03.jpg)
+            1. Fixed
+                1. ![](img/c01s13.04.jpg)
+    1. `Required<t>`
+        1. Definition
+            1. converted properties into REQUIRED status
+        1. Overview
+            1. ![](img/c01s13.05.jpg)
+    1. `Readonly<t>`
+        1. Definition
+            1. converted properties into READONLY status
+        1. Overview
+            1. ![](img/c01s13.06.jpg)
+    1. `Record<K,T>`
+        1. Definition
+            1. converts into map-like object
+        1. Overview
+            1. ![](img/c01s13.07.jpg)
+        1. Example
+            1. ![](img/c01s13.08.jpg)
+    1. `Pick<T,K>`
+        1. Definition
+            1. Allows you to isolate certain required properties of Type
+        1. Overview
+            1. ![](img/c01s13.09.jpg)
+        1. Example
+            1. ![](img/c01s13.11.jpg)
+    1. `Omit<T,K>`
+        1. Definition
+            1. Opposite of `Pick`, `K` are the properties to omit
+        1. Overview
+            1. ![](img/c01s13.10.jpg)
+        1. Example
+            1. ![](img/c01s13.12.jpg)
+    1. `Exclude<T,U>`
+        1. Definition
+            1. Instead of properties, allows us to rid of a type
+        1. Overview
+            1. ![](img/c01s13.13.jpg)
+        1. Example
+            1. ![](img/c01s13.14.jpg)
+            1. ![](img/c01s13.15.jpg)
+    1. `Extract<T,U>`
+        1. Definition
+            1. Instead of properties, allows us to select specified type options
+        1. Example
+            1. ![](img/c01s13.16.jpg)
+    1. `NonNullable<T>`
+        1. Definition
+            1. Allows us to select type options... getting rid of `null`/`undefined` as a type option
+                1. why?
+                    1. because some properties are optional
+                    1. `?` optional permits `undefined` as a type option 
+                        1.
+                1. NOTE
+                    1. only works if `strictNullChecks` is enabled in `tsconfig.json`
+                        1. ![](img/c01s13.18.jpg)
+        1. Overview
+            1. ![](img/c01s13.17.jpg)
+        1. Example
+            1. ![](img/c01s13.19.jpg)
+                1. BOTH `null` and `undefined` are NOT PERMITTED
+    1. `ReturnType<T>`
+        1. Definition
+            1. Returns the type specified within `<>`
+        1. Overview
+            1. ![](img/c01s13.20.jpg)
+        1. Example
+            1. ![](img/c01s13.21.jpg)
+    1. `InstanceType<T>`
+        1. Definition
+            1. Used on instance, returns name of class used to generate instance
+        1. Overview
+            1. ![](img/c01s13.22.jpg)
+        1. Example
+            1. ![](img/c01s13.23.jpg)
+            1. ![](img/c01s13.24.jpg)
+                1. we create a Profile CLass that calls delete
+                    1. how do we ensure what instance it is... `car` or `user`
+            1. ![](img/c01s13.25.jpg)
+                1. ![](img/c01s13.26.jpg)
+    1. `ThisType<T>`
+        1. Deintioin
+        1. Overview
+            1. ![](img/c01s13.27.jpg)
+                1. MUST ENABLE `noImplicitThis`
+                1. ![](img/c01s13.33.jpg)
+        1. Example
+            1. ![](img/c01s13.28.jpg)
+            1. ![](img/c01s13.29.jpg)
+            1. ![](img/c01s13.30.jpg)
+            1. ![](img/c01s13.31.jpg)
+        1. Putting it all together
+            1. ![](img/c01s13.32.jpg)
+                1. ![](img/c01s13.32.1.jpg)
 
 </details>
 
