@@ -624,7 +624,10 @@ img[alt=pict08] {
             1. ![](img/c01s12.03.jpg)
             1. defining an interface that draws from BOTH versions of `MyNamespace`
                 1. ![](img/c01s12.04.jpg)
-        1. Merging namespaces
+            1. NOTE... cannot export NON-EXPORTED namespace properties/methods
+                1. ![](img/c01s12.09.jpg)
+                    1. ![](img/c01s12.10.jpg)
+        1. Merging namespaces [similar to extending... except for everything]
             1. Allows you to add functions to types
                 1. Merging functions into a namespace
                     1. ![](img/c01s12.05.jpg)
@@ -634,7 +637,14 @@ img[alt=pict08] {
                     1. ![](img/c01s12.07.jpg)
                         1. utilized `namespace` to add a function to an `enum`
                     1. ![](img/c01s12.08.jpg)
-        1. 
+    1. Augmenting a module
+        1. Focusing on `React` module
+            1. Checking inside module first
+                1. Inside original `react` module... `Component` interface
+                    1. ![](img/c01s12.11.jpg)
+            1. Import... declare... type... define... use
+                1. ![](img/c01s12.12.jpg)
+        
         
 
 </details>
