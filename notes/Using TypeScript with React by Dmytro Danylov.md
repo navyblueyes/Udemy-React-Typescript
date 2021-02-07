@@ -836,7 +836,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Setting up a webpack project
 
 <details>
 <summary>Expand</summary>
@@ -859,7 +859,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### TypeScript setup options
 
 <details>
 <summary>Expand</summary>
