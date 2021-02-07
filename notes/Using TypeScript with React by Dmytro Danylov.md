@@ -842,8 +842,20 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Setting up a webpack project
-    1. 
-        1. 
+    1. Install webpack with its cli
+        1. ![](img/c02s03.01.jpg)
+    1. Add scripts to the `package.json`
+        1. start with a `build` for production mode
+            1. ![](img/c02s03.02.jpg)
+        1. Test
+            1. Run build
+                1. ![](img/c02s03.03.jpg)
+            1. check for build files in `dist`
+                1.  ![](img/c02s03.04.jpg)
+    1. incorporate html capabilities
+        1. Add plugin for webpack's html
+            1. ![](img/c02s03.05.jpg)
+        1. configure webpack with `webpack.config.js`
 
 </details>
 
