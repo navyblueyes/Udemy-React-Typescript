@@ -825,8 +825,14 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. What is webpack?
-    1. 
-        1. 
+    1. Overall
+        1. Consolidates a development for a more efficient production 
+            1. ![](img/c02s02.01.jpg)
+    1. configured with...
+        1. `webpack.config.js`
+    1. How do you fix `.ts` files prior to consolidation
+        1. loaders
+            1. ![](img/c02s02.02.jpg)
 
 </details>
 
