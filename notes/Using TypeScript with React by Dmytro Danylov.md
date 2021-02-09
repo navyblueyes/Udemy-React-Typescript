@@ -905,6 +905,16 @@ img[alt=pict08] {
     1. `tsconfig.json`
         1. `compilerOptions`
             1. ![](img/c02s05.02.jpg)
+            1. uses `target` to set desired format
+            1. use `module` to import `es6`
+                1. ![](img/c02s05.05.jpg)
+            1. `strict` enables more options
+                1. ![](img/c02s05.06.jpg)
+    1. configuring `webpack.config.js` to find `index.ts`
+        1. ![](img/c02s05.03.jpg)
+        1. ![](img/c02s05.04.jpg)
+        1. ![](img/c02s05.07.jpg)
+         
 
 </details>
 
