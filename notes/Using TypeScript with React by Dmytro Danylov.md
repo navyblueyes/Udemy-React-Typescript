@@ -912,8 +912,14 @@ img[alt=pict08] {
                 1. ![](img/c02s05.06.jpg)
     1. configuring `webpack.config.js` to find `index.ts`
         1. ![](img/c02s05.03.jpg)
-        1. ![](img/c02s05.04.jpg)
         1. ![](img/c02s05.07.jpg)
+    1. Apply `ts-loader` locally for type-checking
+        1. select `.ts` file and specify TS version
+            1. ![](img/c02s05.04.jpg)
+        1. Pick WorkSpace Version to generate local files
+            1. ![](img/c02s05.08.jpg)
+        1. Verify local files [`.vscode` folder]
+            1. ![](img/c02s05.09.jpg)
          
 
 </details>
