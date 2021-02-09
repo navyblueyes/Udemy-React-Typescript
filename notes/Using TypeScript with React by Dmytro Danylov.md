@@ -864,7 +864,7 @@ img[alt=pict08] {
         1. incorporate into npm scripts
             1. ![](img/c02s03.09.jpg)
             1. ![](img/c02s03.08.jpg)
-
+ 
 </details>
 
 ##### TypeScript setup options
@@ -873,8 +873,24 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. TypeScript setup options
-    1. 
-        1. 
+    1. two ways to compile `.ts` into `.js`
+        1. `ts-loader`
+            1. overivew
+                1. ![](img/c02s04.01.jpg)
+            1. two key features
+                1. type checks
+                1. compiles `.ts` into `.js`
+            1. can be combined with babel
+                1. ![](img/c02s04.02.jpg)
+        1. `babel-loader` with babel presets
+            1. overview
+                1. ![](img/c02s04.03.jpg)
+            1. Pro's Cons
+                1. Pro
+                    1. efficient for emovint TS syntax
+                1. Con
+                    1. NO type-checking
+            
 
 </details>
 
