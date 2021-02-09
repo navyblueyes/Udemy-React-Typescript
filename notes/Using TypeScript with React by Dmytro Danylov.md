@@ -900,6 +900,11 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Setting up TypeScript using ts-loader
+    1. Install
+        1. ![](img/c02s05.01.jpg)
+    1. `tsconfig.json`
+        1. `compilerOptions`
+            1. ![](img/c02s05.02.jpg)
 
 </details>
 
