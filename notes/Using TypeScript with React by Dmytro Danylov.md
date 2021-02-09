@@ -979,8 +979,23 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Adding React
-
-</details>
+    1. Install React development
+        1. ![](img/c02s06.16.jpg)
+    1. Install React type defintions
+        1. ![](img/c02s06.17.jpg)
+    1. Warning- JSX is NOT recognized
+        1. Without proper JSX configuration...
+            1. ![](img/c02s07.1.jpg)
+        1. Configuring `tsconfig.json` for JSX
+            1. Two Options
+                1. ![](img/c02s07.2.jpg)
+            1. `preserve`
+                1. compiles `<div></div>`
+                    1. into `<div></div>`
+            1. `react`
+                1. compiles `<div></div>`
+                    1. into `React.createElement('div')`
+</details>          
 
 ##### Adding a source map
 
