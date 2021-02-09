@@ -856,6 +856,12 @@ img[alt=pict08] {
         1. Add plugin for webpack's html
             1. ![](img/c02s03.05.jpg)
         1. configure webpack with `webpack.config.js`
+            1. ![](img/c02s03.06.jpg)
+                1. ![](img/c02s03.06.1.jpg)
+            1. ![](img/c02s03.07.jpg)
+                1. ![](img/c02s03.07.1.jpg)
+                1. ![](img/c02s03.07.2.jpg)
+                1. 
 
 </details>
 
