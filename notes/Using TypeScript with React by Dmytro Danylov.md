@@ -940,6 +940,37 @@ img[alt=pict08] {
         1. ![](img/c02s06.03.jpg)
     1. Setup `webpack.config.js` with `babel-loader`
         1. ![](img/c02s06.04.jpg)
+    1. Class syntax
+        1. Before class typing... all classes looked like this
+            1. ![](img/c02s06.05.jpg)
+        1. If you use new JSX class proposal...
+            1. ![](img/c02s06.07.jpg)
+        1. install `plugin-propasal-class-properties`
+            1. ![](img/c02s06.06.jpg)
+    1. Working with typescript
+        1. Will compile without errors, but still Type-Checks
+            1. ![](img/c02s06.08..jpg)
+        1. Configuring TypeScript to work with Babel
+            1. `tsconfig.json`
+                1. ![](img/c02s06.09.jpg)
+            1. configure `package.json`
+                1. ![](img/c02s06.11.jpg)
+            1. isolated Modules
+                1. ![](img/c02s06.10.jpg)
+                    1. ![](img/c02s06.12.jpg)
+            1. LibCheck
+                1. Imported libraries can NOT be checked with `isolatedModules` enabled
+                    1. ![](img/c02s06.13.jpg)
+                1. Need to enable `skipLibCheck`
+                    1. ![](img/c02s06.14.jpg)
+        1. Overall setup
+            1. Overview
+                1. run `tsconfig.json`
+                1. run `webpack`
+                    1. webpack automatically starts babel with `babel-loader`
+            1. What it looks like in `package.json`
+                1. ![](img/c02s06.15.jpg)
+            
 </details>
 
 ##### Adding React
