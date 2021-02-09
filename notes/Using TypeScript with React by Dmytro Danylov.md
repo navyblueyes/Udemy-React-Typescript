@@ -930,7 +930,16 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Setting up TypeScript using babel-loader
-
+    1. Install needed items
+        1. ![](img/c02s06.01.jpg)
+            1. `preset-env` brings JS syntax
+            1. `preset-typescript` brings TS syntax
+    1. Configure Babel with `.babelrc` with presets
+        1. ![](img/c02s06.02.jpg)
+    1. Install `babel-loader`
+        1. ![](img/c02s06.03.jpg)
+    1. Setup `webpack.config.js` with `babel-loader`
+        1. ![](img/c02s06.04.jpg)
 </details>
 
 ##### Adding React
