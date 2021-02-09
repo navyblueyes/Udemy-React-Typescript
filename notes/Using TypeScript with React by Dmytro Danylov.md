@@ -861,7 +861,9 @@ img[alt=pict08] {
             1. ![](img/c02s03.07.jpg)
                 1. ![](img/c02s03.07.1.jpg)
                 1. ![](img/c02s03.07.2.jpg)
-                1. 
+        1. incorporate into npm scripts
+            1. ![](img/c02s03.09.jpg)
+            1. ![](img/c02s03.08.jpg)
 
 </details>
 
@@ -876,7 +878,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Setting up TypeScript using ts-loader
 
 <details>
 <summary>Expand</summary>
@@ -885,7 +887,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Setting up TypeScript using babel-loader
 
 <details>
 <summary>Expand</summary>
@@ -894,7 +896,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Adding React
 
 <details>
 <summary>Expand</summary>
@@ -903,7 +905,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Adding a source map
 
 <details>
 <summary>Expand</summary>
@@ -912,7 +914,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Function components
 
 <details>
 <summary>Expand</summary>
@@ -921,7 +923,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Setting up CSS Modules
 
 <details>
 <summary>Expand</summary>
@@ -930,7 +932,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Importing SVGs - adding a logo
 
 <details>
 <summary>Expand</summary>
@@ -939,7 +941,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Class components
 
 <details>
 <summary>Expand</summary>
@@ -948,7 +950,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Handling events using React
 
 <details>
 <summary>Expand</summary>
@@ -957,7 +959,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Using React context and the useState
 
 <details>
 <summary>Expand</summary>
@@ -966,7 +968,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Replacing setState with useReducer
 
 <details>
 <summary>Expand</summary>
@@ -975,7 +977,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Store cart data in local storage (useEffect hook)
 
 <details>
 <summary>Expand</summary>
@@ -984,7 +986,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Creating a Higher Order Component - part 1
 
 <details>
 <summary>Expand</summary>
@@ -993,7 +995,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Creating a Higher Order Component - part 2
 
 <details>
 <summary>Expand</summary>
@@ -1002,7 +1004,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Creating a Render Props component
 
 <details>
 <summary>Expand</summary>
@@ -1011,7 +1013,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Creating a custom hook
 
 <details>
 <summary>Expand</summary>
@@ -1020,7 +1022,7 @@ img[alt=pict08] {
 
 </details>
 
-##### What is webpack
+##### Handling original DOM events
 
 <details>
 <summary>Expand</summary>
