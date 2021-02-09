@@ -995,6 +995,20 @@ img[alt=pict08] {
             1. `react`
                 1. compiles `<div></div>`
                     1. into `React.createElement('div')`
+    1. What it should look like
+        1. `index.tsx`
+            1. ![](img/c02s07.3.jpg)
+        1. `index.html`
+            1. ![](img/c02s07.4.jpg)
+    1. Configure Babel to handle React
+        1. install Babel's react preset
+            1. ![](img/c02s07.5.jpg)
+        1. configure `.babelrc`
+            1. ![](img/c02s07.6.jpg)
+                1. NOTE!!!! 
+                    1. Babel presets are LOADED in REVERSE
+                    1. This case
+                        1. Typescript is loaded prior to react
 </details>          
 
 ##### Adding a source map
