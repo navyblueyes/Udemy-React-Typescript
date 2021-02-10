@@ -1142,46 +1142,233 @@ img[alt=pict08] {
 <hr />
 
 
+
+
+
+
 #### Section 3 LEGACY React With TypeScript
 
 <details>
 <summary>Expand</summary>
 
+##### Introduction
+
+<details>
+<summary>Expand</summary>
+
 1. Introduction
+
+</details>
+
+##### Function Components
+
+<details>
+<summary>Expand</summary>
+
 1. Function Components
-1. Quiz 8: Function Components - Quiz
+
+</details>
+
+##### Class Components
+
+<details>
+<summary>Expand</summary>
+
 1. Class Components
-1. Quiz 9: Class Components - Quiz
+
+</details>
+
+##### Higher Order Components - React Redux
+
+<details>
+<summary>Expand</summary>
+
 1. Higher Order Components - React Redux
+
+</details>
+
+##### Higher Order Components - Creating HOCs
+
+<details>
+<summary>Expand</summary>
+
 1. Higher Order Components - Creating HOCs
+
+</details>
+
+##### Render Props
+
+<details>
+<summary>Expand</summary>
+
 1. Render Props
+
+</details>
+
+##### Event Handling
+
+<details>
+<summary>Expand</summary>
+
 1. Event Handling
+
+</details>
+
+##### Introduction to Hooks
+
+<details>
+<summary>Expand</summary>
+
 1. Introduction to Hooks
+
+</details>
+
+##### Hooks: useState
+
+<details>
+<summary>Expand</summary>
+
 1. Hooks: useState
+
+</details>
+
+##### Hooks: useEffect
+
+<details>
+<summary>Expand</summary>
+
 1. Hooks: useEffect
 
 </details>
 
+</details>
+
 <hr />
+
+
+
 
 #### Section 3 Building a React Redux App
 
 <details>
 <summary>Expand</summary>
 
+##### Building a React Redux App Section Introduction
+
+<details>
+<summary>Expand</summary>
+
 1. Building a React Redux App Section Introduction
+
+</details>
+
+##### What if you haven't used Redux before?
+
+<details>
+<summary>Expand</summary>
+
 1. What if you haven't used Redux before?
+
+</details>
+
+##### Initial Setup
+
+<details>
+<summary>Expand</summary>
+
 1. Initial Setup
+
+</details>
+
+##### Setting Up a Fake Server
+
+<details>
+<summary>Expand</summary>
+
 1. Setting Up a Fake Server
+
+</details>
+
+##### Setting Up Redux
+
+<details>
+<summary>Expand</summary>
+
 1. Setting Up Redux
+
+</details>
+
+##### Creating the Recorder Component
+
+<details>
+<summary>Expand</summary>
+
 1. Creating the Recorder Component
+
+</details>
+
+##### Creating the Event List Component
+
+<details>
+<summary>Expand</summary>
+
 1. Creating the Event List Component
+
+</details>
+
+##### Loading Events - Part 1
+
+<details>
+<summary>Expand</summary>
+
 1. Loading Events - Part 1
+
+</details>
+
+##### Loading Events - Part 2 (using connect)
+
+<details>
+<summary>Expand</summary>
+
 1. Loading Events - Part 2 (using connect)
+
+</details>
+
+##### Creating Events
+
+<details>
+<summary>Expand</summary>
+
 1. Creating Events
+
+</details>
+
+##### Deleting Events
+
+<details>
+<summary>Expand</summary>
+
 1. Deleting Events
+
+</details>
+
+##### Editing Titles
+
+<details>
+<summary>Expand</summary>
+
 1. Editing Titles
+
+</details>
+
+##### Useful Links
+
+<details>
+<summary>Expand</summary>
+
 1. Useful Links
+
+</details>
 
 </details>
 
@@ -1193,29 +1380,215 @@ img[alt=pict08] {
 <details>
 <summary>Expand</summary>
 
+
+</details>
+
+##### Introduction
+
+<details>
+<summary>Expand</summary>
+
 1. Introduction
+
+</details>
+
+##### Resources to help you get started with Next.js (Optional)
+
+<details>
+<summary>Expand</summary>
+
 1. Resources to help you get started with Next.js (Optional)
+
+</details>
+
+##### Section tips (Optional)
+
+<details>
+<summary>Expand</summary>
+
 1. Section tips (Optional)
+
+</details>
+
+##### Setting up a Next.js project with TypeScript
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up a Next.js project with TypeScript
+
+</details>
+
+##### Explaining the tsconfig options
+
+<details>
+<summary>Expand</summary>
+
 1. Explaining the tsconfig options
+
+</details>
+
+##### Explaining the esModuleInterop option
+
+<details>
+<summary>Expand</summary>
+
 1. Explaining the esModuleInterop option
+
+</details>
+
+##### Setting up the GraphQL API route
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up the GraphQL API route
+
+</details>
+
+##### Setting up a local MySQL server
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up a local MySQL server
+
+</details>
+
+##### Creating resolvers for the "tasks" query and "createTask" mutation
+
+<details>
+<summary>Expand</summary>
+
 1. Creating resolvers for the "tasks" query and "createTask" mutation
+
+</details>
+
+##### Adding GraphQL code generator for the back end
+
+<details>
+<summary>Expand</summary>
+
 1. Adding GraphQL code generator for the back end
+
+</details>
+
+##### Finishing the GraphQL API
+
+<details>
+<summary>Expand</summary>
+
 1. Finishing the GraphQL API
+
+</details>
+
+##### Setting up Apollo Client
+
+<details>
+<summary>Expand</summary>
+
 1. Setting up Apollo Client
+
+</details>
+
+##### Generating types for the front end
+
+<details>
+<summary>Expand</summary>
+
 1. Generating types for the front end
+
+</details>
+
+##### Adding styles
+
+<details>
+<summary>Expand</summary>
+
 1. Adding styles
+
+</details>
+
+##### Adding the form for creating tasks
+
+<details>
+<summary>Expand</summary>
+
 1. Adding the form for creating tasks
+
+</details>
+
+##### Running the "createTask" mutation
+
+<details>
+<summary>Expand</summary>
+
 1. Running the "createTask" mutation
+
+</details>
+
+##### Adding the form for updating tasks
+
+<details>
+<summary>Expand</summary>
+
 1. Adding the form for updating tasks
+
+</details>
+
+##### Running the "updateTask" mutation
+
+<details>
+<summary>Expand</summary>
+
 1. Running the "updateTask" mutation
+
+</details>
+
+##### Deleting tasks
+
+<details>
+<summary>Expand</summary>
+
 1. Deleting tasks
+
+</details>
+
+##### Filtering tasks by task status
+
+<details>
+<summary>Expand</summary>
+
 1. Filtering tasks by task status
+
+</details>
+
+##### Marking the tasks as completed
+
+<details>
+<summary>Expand</summary>
+
 1. Marking the tasks as completed
+
+</details>
+
+##### Using a single page to render the tasks
+
+<details>
+<summary>Expand</summary>
+
 1. Using a single page to render the tasks
+
+</details>
+
+##### Using a single page to render the tasks list
+
+<details>
+<summary>Expand</summary>
+
 1. Using a single page to render the tasks list
+
+</details>
 
 </details>
 
