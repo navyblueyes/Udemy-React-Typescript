@@ -1116,8 +1116,8 @@ img[alt=pict08] {
             1. **NOTE!!!** Must declare a CSS type declaration to recognize CSS Modules
                 1. ![](img/c02s10.12.jpg)
                 1. ![](img/c02s10.13.jpg)
-        1. 
-    
+                1. ![](img/c02s10.15.jpg)
+                
         
 </details>
 
