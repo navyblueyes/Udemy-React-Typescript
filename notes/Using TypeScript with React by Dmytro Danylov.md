@@ -1115,9 +1115,25 @@ img[alt=pict08] {
         1. ![](img/c02s10.11.jpg)
             1. **NOTE!!!** Must declare a CSS type declaration to recognize CSS Modules
                 1. ![](img/c02s10.12.jpg)
+                    1. ![](img/c02s10.15.jpg)
                 1. ![](img/c02s10.13.jpg)
-                1. ![](img/c02s10.15.jpg)
-                
+    1. Attaching CSS Module to `<div>`
+        1. ![](img/c02s10.16.jpg)
+1. PROBLEM -- TypeScript cannot parse `App.module.css` for all the different classes
+    1. SOLUTION -- `typescript-plugin-css-modules`
+        1. Install plugin as a dev dependency
+            1. ![](img/c02s10.17.jpg)
+        1. Configure `tsconfig` to utilize plugin
+            1. ![](img/c02s10.18.jpg)
+        1. Once configured...
+            1. ![](img/c02s10.19.jpg)
+1. Walkthrough
+    1. Create a module for Pizza component
+        1. ![](img/c02s10.20.jpg)
+    1. Implement within Pizza component
+        1. ![](img/c02s10.21.jpg)
+    1. Check result
+        1. ![](img/c02s10.22.jpg)
         
 </details>
 
