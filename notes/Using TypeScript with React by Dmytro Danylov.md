@@ -1066,6 +1066,12 @@ img[alt=pict08] {
         1. Interface
             1. stovepipes for type-checking variables within component
                 1. ![](img/c02s09.09.jpg)
+        1. Rendering list items
+            1. ![](img/c02s09.10.jpg)
+        1. Implement in `App.tsx`
+            1. ![](img/c02s09.11.jpg)
+    1. Outcome
+        1. ![](img/c02s09.12.jpg)
 
 
 </details>
