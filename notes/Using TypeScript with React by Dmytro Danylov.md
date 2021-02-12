@@ -1032,6 +1032,7 @@ img[alt=pict08] {
             1. ![](img/c02s08.5.jpg)
                 1. NOTE - source-map will have source code
         1. `no-source-map`
+            1. ![](img/c02s08.6.jpg)
 1. Reference
     1. ![](img/c02s08.ref.jpg)
 
