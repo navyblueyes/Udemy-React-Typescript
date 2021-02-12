@@ -1059,7 +1059,14 @@ img[alt=pict08] {
         1. Fix error by configuring `tsconfig`
             1. ![](img/c02s09.03.png)
             1. ![](img/c02s09.02.jpg)
-        1. 
+    1.  Creating a functional component
+        1. Purpose
+            1. receives a generic type parameter
+                1. ![](img/c02s09.08.jpg)
+        1. Interface
+            1. stovepipes for type-checking variables within component
+                1. ![](img/c02s09.09.jpg)
+
 
 </details>
 
