@@ -1034,8 +1034,6 @@ img[alt=pict08] {
         1. `hidden-source-map`
             1. ![](img/c02s08.6.jpg)
                 1. never put source-map on webserver
-        1. `nosources-source-map`
-            1. 
         1. if you are not using `babel-loader` and using `ts-loader`
             1. ![](img/c02s08.7.jpg)
 1. Reference
@@ -1049,6 +1047,19 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Function components
+    1. Separating code into components
+        1. Inspecting `.render` 
+            1. ![](img/c02s09.04.jpg)
+            1. ![](img/c02s09.05.jpg)
+                1. if you change type within `.render`
+                    1. ![](img/c02s09.06.jpg)
+                    1. ![](img/c02s09.07.jpg)
+        1. Importing `.json`
+            1. ![](img/c02s09.01.jpg)
+        1. Fix error by configuring `tsconfig`
+            1. ![](img/c02s09.03.png)
+            1. ![](img/c02s09.02.jpg)
+        1. 
 
 </details>
 
