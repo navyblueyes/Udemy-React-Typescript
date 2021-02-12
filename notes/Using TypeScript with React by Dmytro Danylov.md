@@ -1086,7 +1086,7 @@ img[alt=pict08] {
 <details>
 <summary>Expand</summary>
 
-1. Setting up CSS Modules
+1. Configuring for Main CSS
     1. Main CSS 
         1. ![](img/c02s10.01.jpg)
     1. Import into `index.ts`
@@ -1096,11 +1096,27 @@ img[alt=pict08] {
         1. **NOTE!!** Must install `css-loader` for webpack
             1. ![](img/c02s10.04.jpg)
     1. Configure `webpack.config.js` to append `.css` files
-        1. 
+        1. ![](img/c02s10.07.jpg)
             1. `css-loader` only parses; never inserts into files
+        1. utilize plugin
+            1. ![](img/c02s10.08.jpg)
         1. **NOTE!!** Must install and import `mini-css-extract` plugin for webpack
             1. ![](img/c02s10.05.jpg)
             1. ![](img/c02s10.06.jpg)
+1. Configuring for CSS Modules
+    1. Instead of `css-loader`...
+        1. Prior...
+            1. ![](img/c02s10.09.jpg)
+        1. Enable CSS Modules
+            1. ![](img/c02s10.10.jpg)
+    1. Creating CSS Module
+        1. ![](img/c02s10.14.jpg)
+    1. Implementing CSS Module
+        1. ![](img/c02s10.11.jpg)
+            1. **NOTE!!!** Must declare a CSS type declaration to recognize CSS Modules
+                1. ![](img/c02s10.12.jpg)
+                1. ![](img/c02s10.13.jpg)
+        1. 
     
         
 </details>
