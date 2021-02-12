@@ -1178,14 +1178,20 @@ img[alt=pict08] {
     1. Overview
         1. ![](img/c02s12.01.jpg)
             1. Highlighting shows that `React.Component<>` takes in ...
-                1. Props or `P`
-                1. State or `S`
-                1. Snapshot or `SS`
+                1. Type of Props or `P`
+                1. Type of State or `S`
+                1. Type of Snapshot or `SS`
                     1. `getSnapshotBeforeUpdate()` holds functions to be invoked 
                         1. right before the most recently rendered output is committed to DOM
                     1. Enables your component to capture some info from the DOM (e.g. scroll position) 
                         1. before it is potentially changed
                     1. Values returned will be passed as a parameter to componentDidUpdate().
+    1. To use Component... need to type define P,S
+        1. ![](img/c02s12.02.jpg)
+    1. Define class
+        1. within class
+            1. establish `constructor` to define how props and state interact
+                1. ![](img/c02s12.03.jpg)
 
 </details>
 
