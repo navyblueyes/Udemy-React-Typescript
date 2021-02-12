@@ -1095,6 +1095,13 @@ img[alt=pict08] {
         1. ![](img/c02s10.03.jpg)
         1. **NOTE!!** Must install `css-loader` for webpack
             1. ![](img/c02s10.04.jpg)
+    1. Configure `webpack.config.js` to append `.css` files
+        1. 
+            1. `css-loader` only parses; never inserts into files
+        1. **NOTE!!** Must install and import `mini-css-extract` plugin for webpack
+            1. ![](img/c02s10.05.jpg)
+            1. ![](img/c02s10.06.jpg)
+    
         
 </details>
 
