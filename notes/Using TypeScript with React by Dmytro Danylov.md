@@ -1143,7 +1143,30 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Importing SVGs - adding a logo
-
+    1. New file format... new webpack configuration [loader, type description]
+        1. loader - configure new module rule
+            1. install type description
+                1. ![](img/c02s11.01.jpg)
+            1. new rule in webpack configuration
+                1. ![](img/c02s11.02.jpg)
+        1. type description
+            1. ![](img/c02s11.03.jpg)
+            1. ![](img/c02s11.04.jpg)
+                1. Researching for how to declare SVG
+                    1. Click on `React`
+                        1. ![](img/c02s11.05.jpg)
+                    1. Search for SVG
+            1. FIXED!
+                1. ![](img/c02s11.06.jpg)
+    1. Insert
+        1. ![](img/c02s11.07.jpg)
+            1. ![](img/c02s11.08.jpg)
+    1. Fixing - disabling SVG's viewbox
+        1. ![](img/c02s11.09.jpg)
+            1. ![](img/c02s11.10.jpg)
+    1. Applying CSS styles from module
+        1. ![](img/c02s11.11.jpg)
+            1. ![](img/c02s11.12.jpg)
 </details>
 
 ##### Class components
@@ -1152,6 +1175,17 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Class components
+    1. Overview
+        1. ![](img/c02s12.01.jpg)
+            1. Highlighting shows that `React.Component<>` takes in ...
+                1. Props or `P`
+                1. State or `S`
+                1. Snapshot or `SS`
+                    1. `getSnapshotBeforeUpdate()` holds functions to be invoked 
+                        1. right before the most recently rendered output is committed to DOM
+                    1. Enables your component to capture some info from the DOM (e.g. scroll position) 
+                        1. before it is potentially changed
+                    1. Values returned will be passed as a parameter to componentDidUpdate().
 
 </details>
 
