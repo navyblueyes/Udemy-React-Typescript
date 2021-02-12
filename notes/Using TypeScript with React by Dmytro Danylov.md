@@ -1037,7 +1037,12 @@ img[alt=pict08] {
         1. if you are not using `babel-loader` and using `ts-loader`
             1. ![](img/c02s08.7.jpg)
 1. Reference
-    1. ![](img/c02s08.ref.jpg)
+
+<details>
+<summary>Expand</summary>
+1. ![](img/c02s08.ref.jpg)
+
+</details>
 
 </details>
 
@@ -1082,7 +1087,15 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Setting up CSS Modules
-
+    1. Main CSS 
+        1. ![](img/c02s10.01.jpg)
+    1. Import into `index.ts`
+        1. ![](img/c02s10.02.jpg)
+    1. Configure `webpack.config.js` to handle `.css` files
+        1. ![](img/c02s10.03.jpg)
+        1. **NOTE!!** Must install `css-loader` for webpack
+            1. ![](img/c02s10.04.jpg)
+        
 </details>
 
 ##### Importing SVGs - adding a logo
