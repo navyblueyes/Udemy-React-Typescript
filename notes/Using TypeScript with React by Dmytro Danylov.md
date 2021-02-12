@@ -1017,6 +1017,13 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Adding a source map
+    1. Basic 
+        1. a way to pack 
+    1. 4 ways of source map in webpack
+        1. ![](img/c02s08.1.jpg)
+        1. ![](img/c02s08.2.jpg)
+1. Reference
+    1. ![](img/c02s08.ref.jpg)
 
 </details>
 
