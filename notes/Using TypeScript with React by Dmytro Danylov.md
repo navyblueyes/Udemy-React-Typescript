@@ -1019,9 +1019,19 @@ img[alt=pict08] {
 1. Adding a source map
     1. Basic 
         1. a way to pack 
-    1. 4 ways of source map in webpack
-        1. ![](img/c02s08.1.jpg)
-        1. ![](img/c02s08.2.jpg)
+    1. Development 
+        1. 4 ways of source map in webpack
+            1. ![](img/c02s08.1.jpg)
+            1. ![](img/c02s08.2.jpg)
+        1. Implement choice
+            1. ![](img/c02s08.3.jpg)
+    1. Production
+        1. 4 ways of source map 
+            1. ![](img/c02s08.4.jpg)
+        1. `source-map` generated reference comment
+            1. ![](img/c02s08.5.jpg)
+                1. NOTE - source-map will have source code
+        1. `no-source-map`
 1. Reference
     1. ![](img/c02s08.ref.jpg)
 
