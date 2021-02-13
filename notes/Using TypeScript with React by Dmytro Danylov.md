@@ -1197,8 +1197,21 @@ img[alt=pict08] {
         1. export what you want
             1. ![](img/c02s12.06.jpg)
     1. Implement Class within `App.tsx`
-        1. ![](img/c02s12.05.jpg)
-        1. ![](img/c02s12.07.jpg)
+        1. Import and execute
+            1. ![](img/c02s12.05.jpg)
+            1. ![](img/c02s12.07.jpg)
+        1. Checking results
+            1. ![](img/c02s12.08.jpg)
+    1. Adding an icon
+        1. Install `react-icons`
+            1. ![](img/c02s12.09.jpg)
+        1. Import
+            1. ![](img/c02s12.10.jpg)
+        1. Render
+            1. ![](img/c02s12.11.jpg)
+        1. Check result
+            1. ![](img/c02s12.12.jpg)
+        
             
 
 </details>
