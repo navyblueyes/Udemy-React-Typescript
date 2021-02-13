@@ -1194,8 +1194,11 @@ img[alt=pict08] {
                 1. ![](img/c02s12.03.jpg)
             1. establish what is `render()`'ed and `return()`'ed
                 1. ![](img/c02s12.04.jpg)
+        1. export what you want
+            1. ![](img/c02s12.06.jpg)
     1. Implement Class within `App.tsx`
         1. ![](img/c02s12.05.jpg)
+        1. ![](img/c02s12.07.jpg)
             
 
 </details>
