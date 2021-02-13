@@ -1192,6 +1192,11 @@ img[alt=pict08] {
         1. within class
             1. establish `constructor` to define how props and state interact
                 1. ![](img/c02s12.03.jpg)
+            1. establish what is `render()`'ed and `return()`'ed
+                1. ![](img/c02s12.04.jpg)
+    1. Implement Class within `App.tsx`
+        1. ![](img/c02s12.05.jpg)
+            
 
 </details>
 
