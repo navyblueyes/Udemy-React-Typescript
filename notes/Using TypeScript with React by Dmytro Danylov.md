@@ -1211,6 +1211,10 @@ img[alt=pict08] {
             1. ![](img/c02s12.11.jpg)
         1. Check result
             1. ![](img/c02s12.12.jpg)
+    1. Hide/Show list
+        1. Utilize state of `isOpen` to determine status of Cart
+            1. ![](img/c02s12.13.jpg)
+        1. Utilize `onClick` to change state of `isOpen`
         
             
 
