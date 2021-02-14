@@ -1294,16 +1294,40 @@ img[alt=pict08] {
 
 1. Using React context and the useState
     1. Method for creating state
-        1. Create a separate document for storing state [`AppState.tsx`]
-            1. Import `createContext` and default export it
-                1. ![](img/c02s14.18.jpg)
-        1. Define what is inserted with `interface`
-            1. Create a `cart` object that holds an `items` array 
-            1. `items` array holds objects with `name` string and `price` number properties
-                1. ![](img/c02s14.1.jpg)
-        1. Define initial values while applying `AppStateValue`
-            1. ![](img/c02s14.2.jpg)
-            
+        1. Working on context store
+            1. Create a separate document for storing state [`AppState.tsx`]
+                1. Import `createContext` and default export it
+                    1. ![](img/c02s14.18.jpg)
+            1. Define what is inserted with `interface`
+                1. Create a `cart` object that holds an `items` array 
+                1. `items` array holds objects with `name` string and `price` number properties
+                    1. ![](img/c02s14.1.jpg)
+            1. Define initial values while applying `AppStateValue`
+                1. ![](img/c02s14.2.jpg)
+            1. Insert initial values into the export statement of `createContext()`
+                1. ![](img/c02s14.3.jpg)
+        1. Working on providing context store via `Provider`
+            1. Implement Context via `Provider` and `React.FC`
+                1. ![](img/c02s14.4.jpg)
+            1. `useState` to define state within `Provider`
+                1. ![](img/c02s14.5.jpg)
+            1. ensure state is properly typed
+                1. ![](img/c02s14.6.jpg)
+                    1. noticed it inferred type from the default parameter
+            1. complete functional component by allowing `{children}` passage
+                1. ![](img/c02s14.7.jpg)
+            1. export `Provider` and then import it in main `App.tsx`
+                1. ![](img/c02s14.8.jpg)
+                1. ![](img/c02s14.9.jpg)
+                1. ![](img/c02s14.10.jpg)
+            1. Implement `context` via `Consumer`
+                1. Utilize arrow function that inserts `state`
+                    1. ![](img/c02s14.12.jpg)
+                1. Implement state
+                    1. ![](img/c02s14.11.jpg)
+                        1. Read `state.cart.items.length` to display total items in cart
+                        1. `.map` through each of the `state.cart.items` to display `item.name` and `item.id`
+
 </details>
 
 ##### Replacing setState with useReducer
