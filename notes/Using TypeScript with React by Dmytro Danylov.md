@@ -1247,6 +1247,14 @@ img[alt=pict08] {
     1. ERROR!!! - `Cannot read property 'setState'`
         1. When you click...
             1. ![](img/c02s13.6.jpg)
+        1. Why?!??!
+            1. `handleClick()` function is NOT bound to the cart
+            1. cart's state is not connected to same instance of `handleClick()`
+        1. The fix...
+            1. bind the function within constructor
+                1. ![](img/c02s13.7.jpg)
+            1. ...or... use arrow functions to imply binding WITHIN constructor
+                1. ![](img/c02s13.8.jpg)
         1. 
 
 </details>
