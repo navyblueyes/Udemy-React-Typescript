@@ -1332,21 +1332,36 @@ img[alt=pict08] {
                     1. Semantics
                         1. Simply providing AppSetStateContext and value of setState doesn't give TS detailes that `setState` is being accepted
                             1. ![](img/c02s14.15.jpg)
-                        1. Need to get `setState` type 
+                        1. AppSetStateContext accepts `setState` as a parameter, but it is undefined
                             1. ![](img/c02s14.16.jpg)
-                        1. so you can type-check
+                        1. Need to get `setState` type so you can type-check
                             1. ![](img/c02s14.14.jpg)
                         1. copy as a generic type
                             1. ![](img/c02s14.17.jpg)
                             
                         
             1. Implement `context` via `Consumer`
+                1. Import
+                    1. ![](img/c02s14.19.jpg)
                 1. Utilize arrow function that inserts `state`
                     1. ![](img/c02s14.12.jpg)
                 1. Implement state
                     1. ![](img/c02s14.11.jpg)
                         1. Read `state.cart.items.length` to display total items in cart
                         1. `.map` through each of the `state.cart.items` to display `item.name` and `item.id`
+            1. Implement `AppSetStateContext` to manipulate state with a button
+                1. Import
+                    1. ![](img/c02s14.20.jpg)
+                1. Define an instance that implements `AppSetStateContext` within `useContext`
+                    1. ![](img/c02s14.21.jpg)
+                1. Create button and handleClick function
+                    1. handleClick function
+                        1. in defining `setState()` with a parameter `state` you get an error
+                            1. ![](img/c02s14.22.jpg)
+                            1. `state` error is due to `state` possibly being `undefined`
+                                1. ![](img/c02s14.23.jpg)
+                            1. FIX... type check and 
+                    
 
 </details>
 
