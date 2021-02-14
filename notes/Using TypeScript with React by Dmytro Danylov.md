@@ -1320,6 +1320,11 @@ img[alt=pict08] {
                 1. ![](img/c02s14.8.jpg)
                 1. ![](img/c02s14.9.jpg)
                 1. ![](img/c02s14.10.jpg)
+            1. PROBLEM!!!! Downstream components need to `setState`
+                1. SOLUTION 1 - combine `state` with `setState` into a single provided object
+                    1. what it would look like
+                        1. ![](img/c02s14.13.jpg)
+                        
             1. Implement `context` via `Consumer`
                 1. Utilize arrow function that inserts `state`
                     1. ![](img/c02s14.12.jpg)
