@@ -1324,6 +1324,21 @@ img[alt=pict08] {
                 1. SOLUTION 1 - combine `state` with `setState` into a single provided object
                     1. what it would look like
                         1. ![](img/c02s14.13.jpg)
+                    1. PROBLEM...
+                        1. all object in `children` are re-rendered each time `setState` is activated
+                        
+                1. SOLUTION 2 - create a separate `setState` context 
+                    1. 
+                    1. Semantics
+                        1. Simply providing AppSetStateContext and value of setState doesn't give TS detailes that `setState` is being accepted
+                            1. ![](img/c02s14.15.jpg)
+                        1. Need to get `setState` type 
+                            1. ![](img/c02s14.16.jpg)
+                        1. so you can type-check
+                            1. ![](img/c02s14.14.jpg)
+                        1. copy as a generic type
+                            1. ![](img/c02s14.17.jpg)
+                            
                         
             1. Implement `context` via `Consumer`
                 1. Utilize arrow function that inserts `state`
