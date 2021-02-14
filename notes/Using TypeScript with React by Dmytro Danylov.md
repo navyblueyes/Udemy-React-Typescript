@@ -1228,6 +1228,12 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Handling events using React
+    1. MouseEvent
+        1. closer inspections
+            1. `e` is a `React.MouseEvent`
+                1. ![](img/c02s12.15.jpg)
+    1. Moving eventhandler outside of `render()`
+        1. ![](img/c02s13.1.jpg)
 
 </details>
 
