@@ -1360,7 +1360,8 @@ img[alt=pict08] {
                             1. ![](img/c02s14.22.jpg)
                             1. `state` error is due to `state` possibly being `undefined`
                                 1. ![](img/c02s14.23.jpg)
-                            1. FIX... type check and 
+                            1. FIX... type check with an `if` statement
+                                1. 
                     
 
 </details>
