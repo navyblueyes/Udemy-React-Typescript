@@ -1284,8 +1284,6 @@ img[alt=pict08] {
                 1. Look at properties of `span`
                     1. TS reads the properties of `span`
                         1. ![](img/c02s13.16.jpg)
-                
-                
 
 </details>
 
@@ -1295,7 +1293,17 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Using React context and the useState
-
+    1. Method for creating state
+        1. Create a separate document for storing state [`AppState.tsx`]
+            1. Import `createContext` and default export it
+                1. ![](img/c02s14.18.jpg)
+        1. Define what is inserted with `interface`
+            1. Create a `cart` object that holds an `items` array 
+            1. `items` array holds objects with `name` string and `price` number properties
+                1. ![](img/c02s14.1.jpg)
+        1. Define initial values while applying `AppStateValue`
+            1. ![](img/c02s14.2.jpg)
+            
 </details>
 
 ##### Replacing setState with useReducer
