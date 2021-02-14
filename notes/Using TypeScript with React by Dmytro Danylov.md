@@ -1230,10 +1230,24 @@ img[alt=pict08] {
 1. Handling events using React
     1. MouseEvent
         1. closer inspections
-            1. `e` is a `React.MouseEvent`
+            1. `onClick()`
                 1. ![](img/c02s12.15.jpg)
+            1. `e` is a `React.MouseEvent` / `HTMLButtonElement` type
+                1. ![](img/c02s13.2.jpg)
     1. Moving eventhandler outside of `render()`
-        1. ![](img/c02s13.1.jpg)
+        1. What it should look like...
+            1. ![](img/c02s13.1.jpg)
+        1. type of `e` changed... to `any`
+            1. ![](img/c02s13.3.jpg)
+        1. How to fix the `any` situation...
+            1. need to hunt down the type ... further down the chain
+                1. ![](img/c02s13.4.jpg)
+            1. need to copy and paste type into the `handleClick()` function
+                1. ![](img/c02s13.5.jpg)
+    1. ERROR!!! - `Cannot read property 'setState'`
+        1. When you click...
+            1. ![](img/c02s13.6.jpg)
+        1. 
 
 </details>
 
