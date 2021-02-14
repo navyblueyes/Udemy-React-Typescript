@@ -1253,9 +1253,20 @@ img[alt=pict08] {
         1. The fix...
             1. bind the function within constructor
                 1. ![](img/c02s13.7.jpg)
-            1. ...or... use arrow functions to imply binding WITHIN constructor
+            1. ...or... use arrow functions to imply binding 
                 1. ![](img/c02s13.8.jpg)
-        1. 
+    1. two type of `e` events
+        1. types
+            1. `e.target`
+            1. `e.currentTarget`
+        1. Using `console.log` to determine what is `e` sent within `.handleClick()`
+            1. ![](img/c02s13.9.jpg)
+            1. ![](img/c02s13.10.jpg)
+        1. Therefore... `e.target` sends `<span>` within `<button>`... not the `<button>` itself
+            1. If `e.target` can be anything ... TS can NOT SPECIFY `e.target` type
+            1. so... what does TS label `e.target` ...
+                1. ![](img/c02s13.11.jpg)
+                    1. `EventTarget` generic type
 
 </details>
 
