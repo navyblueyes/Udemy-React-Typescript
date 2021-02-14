@@ -1267,6 +1267,25 @@ img[alt=pict08] {
             1. so... what does TS label `e.target` ...
                 1. ![](img/c02s13.11.jpg)
                     1. `EventTarget` generic type
+        1. PROBLEM!!! - both icon and span are selectable...
+            1. Overview
+                1. Both Icon and Span are selectable...
+                1. How do you ascertain the difference?
+            1. `EventTarget` methods
+                1. Hold over `e.target` and you get three methods for TS DOM elements
+                    1. ![](img/c02s13.13.jpg)
+                    1. ![](img/c02s13.14.jpg)
+                    1. ![](img/c02s13.12.jpg)
+            1. Get `.nodeName` property of HTMLElement
+                1. Force `EventTarget` into HTMLElement
+                    1. ![](img/c02s13.15.jpg)
+                1. Check if `span`
+                    1. ![](img/c02s13.17.jpg)
+                1. Look at properties of `span`
+                    1. TS reads the properties of `span`
+                        1. ![](img/c02s13.16.jpg)
+                
+                
 
 </details>
 
