@@ -1396,6 +1396,17 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Replacing setState with useReducer
+    1. Current Position
+        1. State is being stored in `Pizza.tsx`
+        1. State should be globally accessed
+    1. Where we want to go
+        1. Put state in globally accessible `AppState.tsx`
+    1. How to organize global state
+        1. Reducer
+            1. Function you create
+            1. Updates state according to an action
+        1. useReducer
+            1. ![](img/c02s15.1.1.jpg)
 
 </details>
 
