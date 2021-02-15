@@ -1435,8 +1435,19 @@ img[alt=pict08] {
                     1. ![](img/c02s15.1.8.jpg)
                 1. When you need to add more action types...
                     1. use enum ... `|`
-            1. 
-        1. 
+                        1. ![](img/c02s15.1.10.jpg)       
+        1. basic purpose of `reducer`
+            1. overview
+                1. `if...` checks for `action.type` and performs pre-determined function on `action.payload`
+            1. setup `if...` for reading `ADD_TO_CART`
+                1. ![](img/c02s15.1.11.jpg)
+            1. Copy `itemExists`, destructing pizza `item` and quantity logic from `Pizza.tsx`
+                1. ![](img/c02s15.1.12.jpg)
+            1. REMEMBER... this is a reducer... need to define `action.payload`
+                1. ![](img/c02s15.1.13.jpg)
+                    1. REMEMBER to change all `pizza` into `action.payload.item`
+                    
+            
 
 </details>
 
