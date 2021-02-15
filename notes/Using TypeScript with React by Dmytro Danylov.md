@@ -1373,7 +1373,20 @@ img[alt=pict08] {
                                     1. deconstruct state
                                     1. deconstruct cart
                                     1. deconstruct items
-                    
+                    1. Insert `handleClick` within button
+                        1, ![](img/c02s14.29.jpg)
+            1. New Problem -- Condense Multiple of Same Item into Numerics
+                1. What the Problem looks like...
+                    1. ![](img/c02s14.30.jpg)
+                1. How to work around problem
+                    1. Implement `quantity` properties for each item defined in `AppState.tsx`
+                        1. ![](img/c02s14.32.jpg)
+                    1. Find if the item is in cart... PRIOR TO UPDATING STATE
+                        1. ![](img/c02s14.31.jpg)
+                    1. Right before updating cart items... implement `itemExists` to update item `quantity` by one
+                        1. ![](img/c02s14.33.jpg)
+                1. Implementing visual
+                    1. ![](img/c02s14.34.jpg)
 
 </details>
 
