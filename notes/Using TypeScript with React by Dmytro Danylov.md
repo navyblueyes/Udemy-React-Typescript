@@ -1407,6 +1407,8 @@ img[alt=pict08] {
             1. Updates state according to an action
         1. useReducer
             1. ![](img/c02s15.1.1.jpg)
+            1. ![](img/c02s15.1.2.jpg)
+        1. 
 
 </details>
 
