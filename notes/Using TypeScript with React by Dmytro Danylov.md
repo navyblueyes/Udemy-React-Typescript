@@ -1360,8 +1360,19 @@ img[alt=pict08] {
                             1. ![](img/c02s14.22.jpg)
                             1. `state` error is due to `state` possibly being `undefined`
                                 1. ![](img/c02s14.23.jpg)
-                            1. FIX... type check with an `if` statement
-                                1. 
+                            1. FIX... type check with an `if` statement INSIDE OF `AppState.tsx`
+                                1. ![](img/c02s14.24.jpg)
+                            1. Put logic outside of the `export` for siomplicity
+                                1. ![](img/c02s14.25.jpg)
+                            1. Utilize `useSetState` from `AppState.tsx`
+                                1. ![](img/c02s14.26..jpg)
+                            1. Remove `handleClick` from `return()`
+                                1. ![](img/c02s14.27.jpg)
+                            1. Deconstruct `state` and include new `cart`
+                                1. ![](img/c02s14.28..jpg)
+                                    1. deconstruct state
+                                    1. deconstruct cart
+                                    1. deconstruct items
                     
 
 </details>
