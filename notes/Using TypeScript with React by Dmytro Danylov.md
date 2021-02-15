@@ -1489,8 +1489,17 @@ img[alt=pict08] {
         1. Updating `Pizza.tsx` component
             1. replace setState with dispatch
             1. defined click handler to utilize dispatch
-            1. `quantity` is being handled at `AppState.tsx`
-                1. utilize `Omit` to remove `quantity` from `CartItem`
+            1. ERROR!!
+                1. `quantity` is being handled at `AppState.tsx`
+                    1. utilize `Omit` to remove `quantity` from `CartItem`
+                1. within `AppStateProvider`
+                    1. useReducer error...
+                        1. ![](img/c02s15.1.28.jpg)
+                    1. inconsistency between returned `reducer` and object returned
+                        1. ![](img/c02s15.1.29.jpg)
+                        1. `itemToAdd` does NOT have `quantity`
+                            1. `id`, `name`, `price`... but NO `quantity`
+                                1. ![](img/c02s15.1.30.jpg)
                     
             
 
