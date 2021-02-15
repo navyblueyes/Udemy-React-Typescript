@@ -1417,7 +1417,10 @@ img[alt=pict08] {
             1. State is defined as `AppStateValue`
                 1. ![](img/c02s15.1.4.jpg)
             1. action needs to be defined
-                1. 
+                1. define Action type that defines itself based on generic
+                    1. ![](img/c02s15.1.5.jpg)
+                1. Define `AddToCardAction` interface based on `CartItem` and Action type
+                    1. ![](img/c02s15.1.6.jpg)
         1. 
 
 </details>
