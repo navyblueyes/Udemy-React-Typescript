@@ -1496,11 +1496,24 @@ img[alt=pict08] {
                     1. useReducer error...
                         1. ![](img/c02s15.1.28.jpg)
                     1. inconsistency between returned `reducer` and object returned
-                        1. ![](img/c02s15.1.29.jpg)
+                        1. `AppStateValue` utilizing `CartItem` that requires `quantity`
+                            1. ![](img/c02s15.1.29.jpg)
                         1. `itemToAdd` does NOT have `quantity`
                             1. `id`, `name`, `price`... but NO `quantity`
                                 1. ![](img/c02s15.1.30.jpg)
-                    
+                    1. resolve inconsistency within `reducer` by ...
+                        1. within `reducer`...
+                            1. replace `itemToAdd`
+                                1. ![](img/c02s15.1.31.jpg)
+                            1. ...with destructured `itemToAdd` and `quantity`
+                                1. ![](img/c02s15.1.32.jpg)
+        1. Verify that it works
+            1. ![](img/c02s15.1.33.jpg)
+            1. PROBLEM!!! 4 Napolentana is not 3 pizzas
+                1. Updating Cart to display correct number of pizza
+                    1. ![](img/c02s15.1.34.jpg)
+                1. implementing `item.quantity` and `sum` via `state.cart.items.reduce()`
+                    1. ![](img/c02s15.1.35.jpg)
             
 
 </details>
