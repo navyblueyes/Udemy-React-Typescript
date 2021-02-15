@@ -1415,7 +1415,11 @@ img[alt=pict08] {
                 1. ![](img/c02s15.1.3.jpg)
         1. Be aware of types
             1. State is defined as `AppStateValue`
-                1. ![](img/c02s15.1.4.jpg)
+                1. Type was already defined
+                    1. ![](img/c02s15.1.4.jpg)
+                1. Take values from `AppStateValue` can create a share interface called `CartItem`
+                    1. ![](img/c02s15.1.7.jpg)
+                
             1. action needs to be defined
                 1. define Action type that defines itself based on generic
                     1. ![](img/c02s15.1.5.jpg)
