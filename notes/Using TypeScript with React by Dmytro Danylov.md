@@ -1421,10 +1421,19 @@ img[alt=pict08] {
                     1. ![](img/c02s15.1.7.jpg)
                 
             1. action needs to be defined
+                1. Problem...
+                    1. `state` has `AppStateValue` as a type
+                    1. `action` does NOT have a type
+                        1. ![](img/c02s15.1.9.jpg)
+                1. Because `CartItem` is properly abstracted...
+                    1. It can be re-utilized to check state going into `action`
                 1. define Action type that defines itself based on generic
                     1. ![](img/c02s15.1.5.jpg)
                 1. Define `AddToCardAction` interface based on `CartItem` and Action type
                     1. ![](img/c02s15.1.6.jpg)
+                1. Define `action` as `AddToCardAction`
+                    1. ![](img/c02s15.1.8.jpg)
+            1. 
         1. 
 
 </details>
