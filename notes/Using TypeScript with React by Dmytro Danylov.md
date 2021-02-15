@@ -1405,9 +1405,19 @@ img[alt=pict08] {
         1. Reducer
             1. Function you create
             1. Updates state according to an action
+            1. takes in `state` and `action`
         1. useReducer
             1. ![](img/c02s15.1.1.jpg)
             1. ![](img/c02s15.1.2.jpg)
+    1. Creating a Reducer in `AppState.tsx`
+        1. Define state 
+            1. Arrow function with `state` and `action`
+                1. ![](img/c02s15.1.3.jpg)
+        1. Be aware of types
+            1. State is defined as `AppStateValue`
+                1. ![](img/c02s15.1.4.jpg)
+            1. action needs to be defined
+                1. 
         1. 
 
 </details>
