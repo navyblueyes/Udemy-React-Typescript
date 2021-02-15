@@ -1446,6 +1446,51 @@ img[alt=pict08] {
             1. REMEMBER... this is a reducer... need to define `action.payload`
                 1. ![](img/c02s15.1.13.jpg)
                     1. REMEMBER to change all `pizza` into `action.payload.item`
+        1. replacing `state` with `reducer` within `AppState.tsx`
+            1. before...
+                1. defined `state` within a functional component and distributed to `children`
+                    1. ![](img/c02s15.1.14.JPG)
+            1. now...
+                1.  replace `useState` with `useReducer`
+                    1. ![](img/c02s15.1.15.jpg)
+                1. need to fix type error...
+                    1. investigate what `useReducer` needs by clicking on it
+                        1. ![](img/c02s15.1.16.jpg)
+                    1. implement new knowledge
+                        1. define inputs
+                            1. `reducer` was already defined
+                            1. initial state was defined as `defaultStateValue`
+                                1. ![](img/c02s15.1.17.jpg)
+                        1. define outputs
+                            1. definition called for `state` and `dispatch`
+                                1. ![](img/c02s15.1.18.jpg)
+                1. when implementing `dispatch`... new error
+                    1. undefined `value` within `<AppSetStateContext>`
+                        1. ![](img/c02s15.1.18.jpg)
+                    1. investigate type of `dispatch`
+                        1. ![](img/c02s15.1.20.jpg)
+                    1. re-define type of `value` within `<AppSetStateContext>`
+                        1. scroll up to where `export const AppSetStateContext` is defined
+                            1. defined here
+                                1. ![](img/c02s15.1.21.jpg)
+                            1. Replace `React.Dispatch` with that from `dispatch`
+                                1. ![](img/c02s15.1.22.jpg)
+                1. renaming from `AppSetState` to `AppDispatch`
+                    1. from...
+                        1. ![](img/c02s15.1.23.jpg)
+                    1. to...
+                        1. ![](img/c02s15.1.24.jpg)
+                    1. from...
+                        1. ![](img/c02s15.1.25.jpg)
+                    1. to...
+                        1. ![](img/c02s15.1.26.jpg)
+                    1. to...
+                        1. ![](img/c02s15.1.27.jpg)
+        1. Updating `Pizza.tsx` component
+            1. replace setState with dispatch
+            1. defined click handler to utilize dispatch
+            1. `quantity` is being handled at `AppState.tsx`
+                1. utilize `Omit` to remove `quantity` from `CartItem`
                     
             
 
