@@ -1433,6 +1433,8 @@ img[alt=pict08] {
                     1. ![](img/c02s15.1.6.jpg)
                 1. Define `action` as `AddToCardAction`
                     1. ![](img/c02s15.1.8.jpg)
+                1. When you need to add more action types...
+                    1. use enum ... `|`
             1. 
         1. 
 
