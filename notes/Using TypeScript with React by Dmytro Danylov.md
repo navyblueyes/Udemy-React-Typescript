@@ -1609,6 +1609,11 @@ img[alt=pict08] {
                 1. ![](img/c02s17.1.3.6.jpg) 
             1. `SpecialOffer.tsx`
                 1. ![](img/c02s17.1.3.7.jpg)
+        1. Bring `SpecialOffer` component to `App.tsx`
+            1. Specify that we want pizza `3` with special offer
+                1. ![](img/c02s17.1.3.9.jpg)
+            1. `.find()` the `pizza` with the `.specialOffer` property
+                1. ![](img/c02s17.1.3.10.jpg)
             
         
 
