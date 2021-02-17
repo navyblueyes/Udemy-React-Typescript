@@ -1586,7 +1586,28 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Creating a Higher Order Component - part 1
-    1. 
+    1. Adding a `SpecialOffer` component that will wrap all other components
+        1. Basic
+            1. import, function constant, export
+                1. ![](img/c02s17.1.1.jpg)
+        1. Copy JSX markup for html + button
+            1. ![](img/c02s17.1.2.1.jpg)
+        1. Because state is NOT created... functional component
+            1. ![](img/c02s17.1.3.1.jpg) 
+        1. Copy `interface` from Pizza and share it
+            1. `Pizza.tsx`
+                1. ![](img/c02s17.1.3.2.jpg)
+            1. `types.ts`
+                1. ![](img/c02s17.1.3.4.jpg)
+            1. Share it with...
+                1. `Pizza.tsx`
+                    1. ![](img/c02s17.1.3.3.jpg)
+                1. `SpecialOffer.tsx`
+                    1. ![](img/c02s17.1.3.5.jpg)
+        1. Utilize `interface` within `SpecialOffer` function
+            1. 
+            
+        
 
 </details>
 
