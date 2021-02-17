@@ -1613,7 +1613,16 @@ img[alt=pict08] {
             1. Specify that we want pizza `3` with special offer
                 1. ![](img/c02s17.1.3.9.jpg)
             1. `.find()` the `pizza` with the `.specialOffer` property
-                1. ![](img/c02s17.1.3.10.jpg)
+                1. ![](img/c02s17.1.3.10.jpg) 
+        1. type-check your variables
+            1. `specialOfferPizza` is suppose to hold the pizza..
+                1. ![](img/c02s17.1.3.11.jpg)
+                    1. ...but it can be passed as `undefined`
+            1. Need to null-check with `&&`
+                1. ![](img/c02s17.1.3.12.jpg)
+        1. ERROR -- too many `Pizza`
+            1. ![](img/c02s17.1.3.13.jpg)
+                1. Rename `Pizza` to `PizzaItem`
             
         
 
