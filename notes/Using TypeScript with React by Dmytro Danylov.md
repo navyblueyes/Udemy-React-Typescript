@@ -1524,6 +1524,13 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Store cart data in local storage (useEffect hook)
+    1. Basics about `useEffect`
+        1. functions that are triggered by change in designated variable 
+    1. Where does `useEffect` fit in?
+        1. trigger a `LocalStorage` function to store app data in the browser 
+            1. whenever cart data changes
+    1. Before use... always check documentation
+        1. ![](img/c02s16.1.1.jpg)
 
 </details>
 
