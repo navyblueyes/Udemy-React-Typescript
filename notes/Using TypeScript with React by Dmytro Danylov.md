@@ -1623,6 +1623,9 @@ img[alt=pict08] {
         1. ERROR -- too many `Pizza`
             1. ![](img/c02s17.1.3.13.jpg)
                 1. Rename `Pizza` to `PizzaItem`
+        1. Checking results
+            1. ![](img/c02s17.1.4.1.jpg)
+            
             
         
 
@@ -1634,6 +1637,27 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Creating a Higher Order Component - part 2
+    1. Basic
+        1. Higher-order component allows us to share
+            1. `add to card` functionality between...
+                1. `SpecialOffer`
+                1. `Pizza` 
+        1. Higher-order component will share...
+            1. ![](img/c02s18.1.1.jpg)
+        1. We assume that we will pass `CartItem` as a type through
+            1. ensure to export `CartItem` from `AppState.tsx`
+                1. ![](img/c02s18.1.2.jpg)
+    1. setting up `HOC`
+        1. `AddToCart.tsx`
+            1. Basics
+                1. 
+            1. interface to enforce `CartItem` type input for `addToCart`
+                1. ensure to `Omit<>` quantity...
+                    1. ![](img/c02s18.1.3.jpg) 
+                1. `quantity` is already handled by `reducer`
+                1. implement `interface` onto onClick function
+                    1. ![](img/c02s18.1.4.jpg)
+    1. passing `addToCart` to `Pizza.tsx`
 
 </details>
 
