@@ -1531,7 +1531,13 @@ img[alt=pict08] {
             1. whenever cart data changes
     1. Before use... always check documentation
         1. ![](img/c02s16.1.1.jpg)
-
+    1. Plan out what you want
+        1. Callback
+            1. utilize `window` library b/c it is part of the browser
+                1. ![](img/c02s16.1.2.jpg)
+            1. what it should look like
+                1. ![](img/c02s16.1.3.jpg)
+            
 </details>
 
 ##### Creating a Higher Order Component - part 1
