@@ -1687,6 +1687,7 @@ img[alt=pict08] {
                     1. ![](img/c02s18.1.12.jpg)
                 1. import and extend <Props> that utilizes `addToCart`
                     1. ![](img/c02s18.1.13.jpg)
+        1. form-fitting `addToCart` to rest of `Pizza.tsx`
     1. do NOT forget about parent component... `App.tsx`
         1. ![](img/c02s18.1.5.jpg)
         1. Need to omit properties
