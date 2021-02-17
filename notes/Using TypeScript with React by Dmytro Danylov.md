@@ -1535,8 +1535,11 @@ img[alt=pict08] {
         1. Callback
             1. utilize `window` library b/c it is part of the browser
                 1. ![](img/c02s16.1.2.jpg)
-            1. what it should look like
+            1. what callback should look like
                 1. ![](img/c02s16.1.3.jpg)
+        1. Dependency
+            1. we want the callback to occur EVERY TIME `state.cart` change
+                1. ![](img/c02s16.1.4.jpg)
             
 </details>
 
