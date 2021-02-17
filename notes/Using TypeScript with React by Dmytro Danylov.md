@@ -1650,7 +1650,19 @@ img[alt=pict08] {
     1. setting up `HOC`
         1. `AddToCart.tsx`
             1. Basics
-                1. 
+                1. What is should look like
+                    1. ![](img/c02s18.1.6.jpg)
+                1. Basic Structure
+                    1. Import
+                    1. HOC that takes in `ChildComponent`
+                        1. `ChildComponent` is of `React.ComponentType`
+                    1. HOC consists of a function that `return`s `<ChildComponent`
+                    1. `return` HOC function
+            1. Focusing on `<ChildComponent>`
+                1. Component needs access to its properties or `props`
+                    1. `props` needs to be typed
+                        1. import prop type via Generic
+                            1. ![](img/c02s18.1.7.jpg)
             1. interface to enforce `CartItem` type input for `addToCart`
                 1. ensure to `Omit<>` quantity...
                     1. ![](img/c02s18.1.3.jpg) 
@@ -1662,7 +1674,7 @@ img[alt=pict08] {
         1. ![](img/c02s18.1.5.jpg)
         1. Need to omit properties
             1. properties are already added downstream
-                1. 
+                1.  
 
 </details>
 
