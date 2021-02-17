@@ -1658,6 +1658,11 @@ img[alt=pict08] {
                 1. implement `interface` onto onClick function
                     1. ![](img/c02s18.1.4.jpg)
     1. passing `addToCart` to `Pizza.tsx`
+    1. do NOT forget about parent component... `App.tsx`
+        1. ![](img/c02s18.1.5.jpg)
+        1. Need to omit properties
+            1. properties are already added downstream
+                1. 
 
 </details>
 
