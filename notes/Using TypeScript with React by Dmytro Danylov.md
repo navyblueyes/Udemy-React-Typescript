@@ -1658,18 +1658,35 @@ img[alt=pict08] {
                         1. `ChildComponent` is of `React.ComponentType`
                     1. HOC consists of a function that `return`s `<ChildComponent`
                     1. `return` HOC function
-            1. Focusing on `<ChildComponent>`
-                1. Component needs access to its properties or `props`
-                    1. `props` needs to be typed
-                        1. import prop type via Generic
-                            1. ![](img/c02s18.1.7.jpg)
-            1. interface to enforce `CartItem` type input for `addToCart`
-                1. ensure to `Omit<>` quantity...
-                    1. ![](img/c02s18.1.3.jpg) 
-                1. `quantity` is already handled by `reducer`
-                1. implement `interface` onto onClick function
-                    1. ![](img/c02s18.1.4.jpg)
+    1. Adding functionality to `HOC`
+        1. add handleClick function to HOC, within HOC function
+            1. ![](img/c02s18.1.10.jpg)
+                1. import `CartItem` and use it to type enforce `item`
+                1. create a handleClick function that `dispatch`es a payload with `item`
+                1. be sure to esport handleClick function
+        1. Focusing on `<ChildComponent>`
+            1. Component needs access to its properties or `props`
+                1. `props` needs to be typed
+                    1. import prop type into function via Generic
+                        1. ![](img/c02s18.1.7.jpg)
+                    1. import prop type into component via Generic
+                        1. ![](img/c02s18.1.8.jpg)
+                1. assert `props` to be `OriginalProps` type
+                    1. ![](img/c02s18.1.9.jpg)
+        1. interface to enforce `CartItem` type input for `addToCart`
+            1. ensure to `Omit<>` quantity...
+                1. ![](img/c02s18.1.3.jpg) 
+            1. `quantity` is already handled by `reducer`
+            1. implement `interface` onto onClick function
+                1. ![](img/c02s18.1.4.jpg)
     1. passing `addToCart` to `Pizza.tsx`
+        1. ![](img/c02s18.1.11.jpg)
+            1. Problem... Pizza does NOT know what type the imported `addToCart` is
+            1. Solution... two parts
+                1. export an interface that explains `addToCart` function
+                    1. ![](img/c02s18.1.12.jpg)
+                1. import and extend <Props> that utilizes `addToCart`
+                    1. ![](img/c02s18.1.13.jpg)
     1. do NOT forget about parent component... `App.tsx`
         1. ![](img/c02s18.1.5.jpg)
         1. Need to omit properties
