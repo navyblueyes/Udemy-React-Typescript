@@ -1532,14 +1532,33 @@ img[alt=pict08] {
     1. Before use... always check documentation
         1. ![](img/c02s16.1.1.jpg)
     1. Plan out what you want
-        1. Callback
-            1. utilize `window` library b/c it is part of the browser
-                1. ![](img/c02s16.1.2.jpg)
-            1. what callback should look like
-                1. ![](img/c02s16.1.3.jpg)
-        1. Dependency
-            1. we want the callback to occur EVERY TIME `state.cart` change
-                1. ![](img/c02s16.1.4.jpg)
+        1. Storing into LocalStorage
+            1. Callback
+                1. utilize `window` library b/c it is part of the browser
+                    1. ![](img/c02s16.1.2.jpg)
+                1. what callback should look like
+                    1. ![](img/c02s16.1.3.jpg)
+            1. Dependency
+                1. we want the callback to occur EVERY TIME `state.cart` change
+                    1. ![](img/c02s16.1.4.jpg)
+        1. Loading LocalStorage after initial load
+            1. Callback - `getItem`
+                1. ![](img/c02s16.1.5.jpg)
+            1. Action
+                1. Because we are changing state... must go through an action
+                1. Creating an action
+                    1. create `interface` defining the initialization of Cart
+                        1. ![](img/c02s16.1.6.jpg)
+                            1. we are accessing the `AppStateValue` type and accessing it's cart value
+                1. Add newly created action to `reducer`
+                    1. ![](img/c02s16.1.7.jpg)
+                        1. add to the function arrow's parameter `()`
+                        1. fit it in via `|` union marker
+                1. Add logic `if` the `action.type` is `INITIALIZE_CART`
+                    1. logic should destructure `state` and just assign cart value
+                        1. ![](img/c02s16.1.8.jpg)
+                
+    
             
 </details>
 
