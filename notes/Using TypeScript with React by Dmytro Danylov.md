@@ -1586,6 +1586,7 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Creating a Higher Order Component - part 1
+    1. 
 
 </details>
 
