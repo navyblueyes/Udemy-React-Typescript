@@ -1543,20 +1543,38 @@ img[alt=pict08] {
                     1. ![](img/c02s16.1.4.jpg)
         1. Loading LocalStorage after initial load
             1. Callback - `getItem`
-                1. ![](img/c02s16.1.5.jpg)
-            1. Action
-                1. Because we are changing state... must go through an action
-                1. Creating an action
-                    1. create `interface` defining the initialization of Cart
-                        1. ![](img/c02s16.1.6.jpg)
-                            1. we are accessing the `AppStateValue` type and accessing it's cart value
-                1. Add newly created action to `reducer`
-                    1. ![](img/c02s16.1.7.jpg)
-                        1. add to the function arrow's parameter `()`
-                        1. fit it in via `|` union marker
-                1. Add logic `if` the `action.type` is `INITIALIZE_CART`
-                    1. logic should destructure `state` and just assign cart value
-                        1. ![](img/c02s16.1.8.jpg)
+                1. what is `getItem`
+                    1. ![](img/c02s16.1.5.jpg)
+                1. Action
+                    1. Because we are changing state... must go through an action
+                    1. Creating an action
+                        1. create `interface` defining the initialization of Cart
+                            1. ![](img/c02s16.1.6.jpg)
+                                1. we are accessing the `AppStateValue` type and accessing it's cart value
+                    1. Add newly created action to `reducer`
+                        1. ![](img/c02s16.1.7.jpg)
+                            1. add to the function arrow's parameter `()`
+                            1. fit it in via `|` union marker
+                    1. Add logic `if` the `action.type` is `INITIALIZE_CART`
+                        1. logic should destructure `state` and just assign cart value
+                            1. ![](img/c02s16.1.8.jpg)
+                1. Checking type
+                    1. problem!!!
+                        1. ![](img/c02s16.1.9.jpg)
+                        1. NEED TO WRAP UP NULL'S
+                    1. null check
+                        1. ![](img/c02s16.1.10.jpg)
+                1. create `dispatch`
+                    1. `dispatch` that consists of `type` and `payload`
+            1. Dependency 
+                1. ![](img/c02s16.1.12.jpg)
+                    1. Blank `[]` array to symbolize that it loads on first
+            1. PROBLEM!!! `set` runs before `get`
+                1. Sets an empty cart to LocalStorate PRIOR to retrieving from LocalStorage
+            1. SOLUTION!!! switch `get` and `set` `UseEffect`'s
+                1. ![](img/c02s16.1.13.jpg)
+                1. ![](img/c02s16.1.11.jpg)
+            1.  
                 
     
             
