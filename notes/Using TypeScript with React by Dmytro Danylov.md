@@ -1604,8 +1604,11 @@ img[alt=pict08] {
                     1. ![](img/c02s17.1.3.3.jpg)
                 1. `SpecialOffer.tsx`
                     1. ![](img/c02s17.1.3.5.jpg)
-        1. Utilize `interface` within `SpecialOffer` function
-            1. 
+        1. Copy `Pizza.tsx`'s `dispatch` and `handle`click 
+            1. `Pizza.tsx`
+                1. ![](img/c02s17.1.3.6.jpg) 
+            1. `SpecialOffer.tsx`
+                1. ![](img/c02s17.1.3.7.jpg)
             
         
 
