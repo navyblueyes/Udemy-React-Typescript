@@ -1663,7 +1663,10 @@ img[alt=pict08] {
             1. ![](img/c02s18.1.10.jpg)
                 1. import `CartItem` and use it to type enforce `item`
                 1. create a handleClick function that `dispatch`es a payload with `item`
-                1. be sure to esport handleClick function
+                1. be sure to `return` handleClick function
+        1. implementing HOC onto childComponent... `Pizza.tsx`
+            1. wrap the exported `PizzaItem` with addToCart
+                1. ![](img/c02s18.1.14.jpg)
         1. Focusing on `<ChildComponent>`
             1. Component needs access to its properties or `props`
                 1. `props` needs to be typed
@@ -1692,7 +1695,7 @@ img[alt=pict08] {
         1. ![](img/c02s18.1.5.jpg)
         1. Need to omit properties
             1. properties are already added downstream
-                1.  
+                1. 
 
 </details>
 
