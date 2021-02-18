@@ -1679,13 +1679,27 @@ img[alt=pict08] {
                     1. Exporting a typed `addToCart`
                         1. Need to go back to root of `addToCart` ... `AddToCart.tsx`
                             1. need to define it as an interface 
-                                1. ![](img/c02s18.1.17.jpg) 
+                                1. ![](img/c02s18.1.17.jpg)
                     1. Going back to `Pizza.tsx` and implement the exported `addToCart`
                         1. import and extend <Props> that utilizes `addToCart`
                             1. ![](img/c02s18.1.13.jpg)
                 1. Testing...
                     1. ![](img/c02s18.1.18.jpg)
                         1. properly reads `addToCart`
+            1. Cleaning up `dispatch`
+                1. `dispatch` passed cart functionality to the reducer
+                    1. no longer needed
+                1. replace `dispatch` with `addToCart()`
+                    1. before...
+                        1. ![](img/c02s18.1.19.jpg)
+                    1. after...
+                        1. ![](img/c02s18.1.20.jpg)
+                1. PROBLEM!!!!
+                    1. Typescript wants us to include `quantity` to fulfil the type for `addToCart`
+                1. SOLUTION
+                    1. go back to `addToCart` and omit `quantity` from `CartItem`
+    1. Fixing `addToCart`'s `CartItem`
+        1. `Omit`ting `quantity` from `CartItem`
 1. ///////////////////////////////////////
     1. sdf
         1. sdf
