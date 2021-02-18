@@ -1674,9 +1674,23 @@ img[alt=pict08] {
                 1. After
                     1. ![](img/c02s18.1.16.jpg)
                 1. Problem!!! time to investigate
-                    1. 
-            1. Component needs access to its properties or `props`
-                1. `props` needs to be typed
+                    1. `addToCart` needs to be typed
+                1. Solution -- export/import
+                    1. Exporting a typed `addToCart`
+                        1. Need to go back to root of `addToCart` ... `AddToCart.tsx`
+                            1. need to define it as an interface 
+                                1. ![](img/c02s18.1.17.jpg) 
+                    1. Going back to `Pizza.tsx` and implement the exported `addToCart`
+                        1. import and extend <Props> that utilizes `addToCart`
+                            1. ![](img/c02s18.1.13.jpg)
+                1. Testing...
+                    1. ![](img/c02s18.1.18.jpg)
+                        1. properly reads `addToCart`
+1. ///////////////////////////////////////
+    1. sdf
+        1. sdf
+            1. sadf
+                1. sdf
                     1. import prop type into function via Generic
                         1. ![](img/c02s18.1.7.jpg)
                     1. import prop type into component via Generic
@@ -1689,14 +1703,6 @@ img[alt=pict08] {
             1. `quantity` is already handled by `reducer`
             1. implement `interface` onto onClick function
                 1. ![](img/c02s18.1.4.jpg)
-    1. passing `addToCart` to `Pizza.tsx`
-        1. ![](img/c02s18.1.11.jpg)
-            1. Problem... Pizza does NOT know what type the imported `addToCart` is
-            1. Solution... two parts
-                1. export an interface that explains `addToCart` function
-                    1. ![](img/c02s18.1.12.jpg)
-                1. import and extend <Props> that utilizes `addToCart`
-                    1. ![](img/c02s18.1.13.jpg)
         1. form-fitting `addToCart` to rest of `Pizza.tsx`
     1. do NOT forget about parent component... `App.tsx`
         1. ![](img/c02s18.1.5.jpg)
