@@ -1667,7 +1667,14 @@ img[alt=pict08] {
         1. implementing HOC onto childComponent... `Pizza.tsx`
             1. wrap the exported `PizzaItem` with addToCart
                 1. ![](img/c02s18.1.14.jpg)
-        1. Focusing on `<ChildComponent>`
+        1. Form-fitting `Pizza.tsx` to utilize `addToCart` functionality
+            1. adding `addToCart` as a parameter to `PizzaItem` functional component
+                1. Before
+                    1. ![](img/c02s18.1.15.jpg)
+                1. After
+                    1. ![](img/c02s18.1.16.jpg)
+                1. Problem!!! time to investigate
+                    1. 
             1. Component needs access to its properties or `props`
                 1. `props` needs to be typed
                     1. import prop type into function via Generic
