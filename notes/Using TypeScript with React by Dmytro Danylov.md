@@ -1703,6 +1703,25 @@ img[alt=pict08] {
         1. `Omit`ting `quantity` from `CartItem`
             1. Edit the `export interface` of `AddToCart.tsx`
                 1. ![](img/c02s18.1.22.jpg)
+            1. Edit the `withAddToCard` function to type-check with `AddToCartProps` interface
+                1. ![](img/c02s18.1.23.jpg)
+    1. Reviewing App.tsx
+        1. Problem!!!
+            1. TS demands to see `addToCart` to `<Pizza>`
+                1. ![](img/c02s18.1.24.jpg)
+        1. Problem
+            1. TS has a problem when you add `addToCart`
+                1. ![](img/c02s18.1.25.jpg)
+            1. Why?
+                1. Because `addToCart` was not part of `export interface`
+        1. Solution
+            1. go back to `Pizza.tsx`
+                1. `Props` of `Pizza.tsx` is an extension of `AddToCartProps` from `AddToCart`
+                    1. ![](img/c02s18.1.26.jpg)
+            1. go to `Props` of `AddToCart`
+                1. Before
+                    1. ![](img/c02s18.1.27.jpg)
+            
 1. ///////////////////////////////////////
     1. sdf
         1. sdf
