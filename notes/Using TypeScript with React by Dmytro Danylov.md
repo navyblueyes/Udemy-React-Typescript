@@ -1730,6 +1730,13 @@ img[alt=pict08] {
                             1. ![](img/c02s18.1.30.jpg)
                         1. by using `keyof`
                             1. we avoid going over every single type of `AddToCartProps`
+    1. Reviewing `AddToCart.tsx`
+        1. `AddToCartHOC` return has an error
+            1. Problem...
+                1. ![](img/c02s18.1.31.jpg)
+            1. Investigation
+                1. ![](img/c02s18.1.32.jpg)
+        1. 
                         1. want 
             
 1. ///////////////////////////////////////
