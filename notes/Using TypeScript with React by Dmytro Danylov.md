@@ -1766,6 +1766,8 @@ img[alt=pict08] {
                 1. ![](img/c02s18.1.41.jpg)
             1. After
                 1. ![](img/c02s18.1.42.jpg)
+    1. Verify if it works
+        1. ![](img/c02s18.1.43.jpg)
 
 </details>
 
