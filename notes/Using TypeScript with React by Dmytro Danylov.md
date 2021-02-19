@@ -1780,7 +1780,16 @@ img[alt=pict08] {
     1. About `Render Props`
         1. Similar to `HOC` but with less code
         1. Pass to component exactly the function you want to run in the render
-            1. `<Component render=`
+            1. ![](img/c02s19.1.1.jpg)
+        1. `addToCart` is accessed via `props.addToCart`
+    1. Working on `AddToCart.tsx` to pass `addToCart`
+        1. start on export
+            1. export a functional component that passes `children` into its function
+                1. ![](img/c02s19.2.1.jpg)
+            1. copy logic for handling `addToCart`
+                1. ![](img/c02s19.2.2.jpg)
+            1. paste logic into `export`
+                1. ![](img/c02s19.2.3.jpg)
 
 </details>
 
