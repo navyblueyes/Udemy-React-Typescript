@@ -1742,36 +1742,20 @@ img[alt=pict08] {
                 1. ![](img/c02s18.1.33.jpg)
         1. Consistency with exporting `addToCart`
             1. Problem
-                1. ![](img/c02s18.1.34.jpg)
+                1. ![](img/c02s18.1.36.jpg)
             1. Solution
                 1., ![](img/c02s18.1.35.jpg)
-                        
-        1. 
+    1. Enforcing HOC on `SpecialOffer.tsx`
+        1. Passing HOC
+            1. Before
+                1. ![](img/c02s18.1.38.jpg)
+        1. Passing the HOC type 
+            1. Before
+                1. 
+            1. After
+                1. ![](img/c02s18.1.37.jpg)
                         1. want 
             
-1. ///////////////////////////////////////
-    1. sdf
-        1. sdf
-            1. sadf
-                1. sdf
-                    1. import prop type into function via Generic
-                        1. ![](img/c02s18.1.7.jpg)
-                    1. import prop type into component via Generic
-                        1. ![](img/c02s18.1.8.jpg)
-                1. assert `props` to be `OriginalProps` type
-                    1. ![](img/c02s18.1.9.jpg)
-        1. interface to enforce `CartItem` type input for `addToCart`
-            1. ensure to `Omit<>` quantity...
-                1. ![](img/c02s18.1.3.jpg) 
-            1. `quantity` is already handled by `reducer`
-            1. implement `interface` onto onClick function
-                1. ![](img/c02s18.1.4.jpg)
-        1. form-fitting `addToCart` to rest of `Pizza.tsx`
-    1. do NOT forget about parent component... `App.tsx`
-        1. ![](img/c02s18.1.5.jpg)
-        1. Need to omit properties
-            1. properties are already added downstream
-                1. 
 
 </details>
 
