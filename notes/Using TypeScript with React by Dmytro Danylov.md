@@ -1777,6 +1777,10 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Creating a Render Props component
+    1. About `Render Props`
+        1. Similar to `HOC` but with less code
+        1. Pass to component exactly the function you want to run in the render
+            1. `<Component render=`
 
 </details>
 
