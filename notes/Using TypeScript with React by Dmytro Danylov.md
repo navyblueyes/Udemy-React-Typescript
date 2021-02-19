@@ -1786,10 +1786,23 @@ img[alt=pict08] {
         1. start on export
             1. export a functional component that passes `children` into its function
                 1. ![](img/c02s19.2.1.jpg)
+        1. move logic inside of functional component
             1. copy logic for handling `addToCart`
                 1. ![](img/c02s19.2.2.jpg)
             1. paste logic into `export`
                 1. ![](img/c02s19.2.3.jpg)
+        1. `return` `children` with `addToCart` inserted in it
+            1. ![](img/c02s19.2.4.jpg)
+    1. Working on type
+        1. Error
+            1. ![](img/c02s19.3.1.jpg)
+        1. What is the problem
+            1. TS is complaining that `children` can be a `ReactElement` of `any` type
+        1. The fix...
+            1. Assign children by defining at the beginning
+                1. ![](img/c02s19.3.2.jpg)
+            1. Define children as a function that returns a `JSX.Element`
+                1. ![](img/c02s19.3.3.jpg)
 
 </details>
 
