@@ -1701,7 +1701,8 @@ img[alt=pict08] {
                     1. go back to `addToCart` and omit `quantity` from `CartItem`
     1. Fixing `addToCart`'s `CartItem`
         1. `Omit`ting `quantity` from `CartItem`
-            1. 
+            1. Edit the `export interface` of `AddToCart.tsx`
+                1. ![](img/c02s18.1.22.jpg)
 1. ///////////////////////////////////////
     1. sdf
         1. sdf
