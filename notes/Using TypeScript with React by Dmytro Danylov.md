@@ -1801,8 +1801,21 @@ img[alt=pict08] {
         1. The fix...
             1. Assign children by defining at the beginning
                 1. ![](img/c02s19.3.2.jpg)
-            1. Define children as a function that returns a `JSX.Element`
+            1. Define children as a function that returns a `JSX.Element` with `AddToCartProps` being inserted
                 1. ![](img/c02s19.3.3.jpg)
+    1. adding to `SpecialOffer.tsx`
+        1. Fixing export
+            1. Before
+                1. ![](img/c02s19.4.1.jpg)
+            1. After
+                1. ![](img/c02s19.4.2.jpg)
+        1. Fixing import
+            1. Before
+                1. ![](img/c02s19.4.3.jpg)
+            1. After
+                1. 
+        1. asdf
+            
 
 </details>
 
