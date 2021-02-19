@@ -1696,10 +1696,12 @@ img[alt=pict08] {
                         1. ![](img/c02s18.1.20.jpg)
                 1. PROBLEM!!!!
                     1. Typescript wants us to include `quantity` to fulfil the type for `addToCart`
+                        1. ![](img/c02s18.1.21.jpg)
                 1. SOLUTION
                     1. go back to `addToCart` and omit `quantity` from `CartItem`
     1. Fixing `addToCart`'s `CartItem`
         1. `Omit`ting `quantity` from `CartItem`
+            1. 
 1. ///////////////////////////////////////
     1. sdf
         1. sdf
