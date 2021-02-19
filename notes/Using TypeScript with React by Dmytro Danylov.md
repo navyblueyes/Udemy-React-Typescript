@@ -1740,7 +1740,11 @@ img[alt=pict08] {
                 1. Because TS does not recognize property as OriginalProps
                     1. Assert it `as OriginalProps`
                 1. ![](img/c02s18.1.33.jpg)
-        1. 
+        1. Consistency with exporting `addToCart`
+            1. Problem
+                1. ![](img/c02s18.1.34.jpg)
+            1. Solution
+                1., ![](img/c02s18.1.35.jpg)
                         
         1. 
                         1. want 
