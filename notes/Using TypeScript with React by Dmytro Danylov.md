@@ -1749,13 +1749,23 @@ img[alt=pict08] {
         1. Passing HOC
             1. Before
                 1. ![](img/c02s18.1.38.jpg)
-        1. Passing the HOC type 
-            1. Before
-                1. 
             1. After
-                1. ![](img/c02s18.1.37.jpg)
+                1. ![](img/c02s18.1.39.jpg)
+        1. Problem!!!
+            1. `SpecialOffer.tsx` does not accept because the `Props` do not match
+        1. Solution
+            1. `extend` the `Prop` to enforce the new `withAddToCart` type 
+                1. Before
+                    1. ![](img/c02s18.1.40..jpg)
+                1. After
+                    1. ![](img/c02s18.1.37.jpg)
                         1. want 
-            
+    1. `addToCart` function replaces `dispatch`
+        1. get rid of `dispatch`
+            1. Before
+                1. ![](img/c02s18.1.41.jpg)
+            1. After
+                1. ![](img/c02s18.1.42.jpg)
 
 </details>
 
