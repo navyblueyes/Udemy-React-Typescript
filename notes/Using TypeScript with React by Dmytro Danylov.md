@@ -1721,6 +1721,16 @@ img[alt=pict08] {
             1. go to `Props` of `AddToCart`
                 1. Before
                     1. ![](img/c02s18.1.27.jpg)
+                1. What we want...
+                    1. want to exclude all of `addToCart`'s `item` props
+                        1. ![](img/c02s18.1.29.jpg)
+                        1. ![](img/c02s18.1.28.jpg)
+                    1. By excluding all of `addToCart` props...
+                        1. `AddToCartHOC` can only export `addToCart()` function
+                            1. ![](img/c02s18.1.30.jpg)
+                        1. by using `keyof`
+                            1. we avoid going over every single type of `AddToCartProps`
+                        1. want 
             
 1. ///////////////////////////////////////
     1. sdf
