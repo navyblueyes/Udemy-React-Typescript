@@ -1872,7 +1872,13 @@ img[alt=pict08] {
                     1. ![](img/c02s21.2.4.jpg)
                 1. HOWEVER... `.current` can be `NULL`
                     1. ![](img/c02s21.2.5.jpg)
+                    1. `.current` checks if `div` exists
+                        1. need to verify if click event is outside of container
                 1. Utilize `&&` logic to verify `!null`
+                    1. ... and ... need to verify click event is outside of container
+                    1. specifying event
+                        1. ![](img/c02s21.2.6.jpg)
+                    1. ![](img/c02s21.2.7.jpg)
             
 
 </details>
