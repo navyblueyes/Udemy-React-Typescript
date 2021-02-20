@@ -1896,7 +1896,10 @@ img[alt=pict08] {
                 1. ![](img/c02s21.2.14.jpg)
         1. be sure to label function to easily attribute it
             1. ![](img/c02s21.2.15.jpg)
-            
+        1. be sure to type assert event
+            1. ![](img/c02s21.2.16.jpg)
+    1. Alternative approach to removing event listener
+        1. ![](img/c02s21.2.17.jpg)
 
 </details>
 
