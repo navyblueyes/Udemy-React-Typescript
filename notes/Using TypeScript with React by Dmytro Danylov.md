@@ -1881,7 +1881,21 @@ img[alt=pict08] {
                             1. ![](img/c02s21.2.9.jpg)
                     1. specifying event
                         1. ![](img/c02s21.2.6.jpg)
-                    1. ![](img/c02s21.2.7.jpg)
+                            1. ![](img/c02s21.2.10.jpg)
+                    1. Fixing element
+                        1. `e.target` registers as `EventTarget` when `.contains()` requires a `Node`
+                            1. ![](img/c02s21.2.11.jpg)
+                            1. ![](img/c02s21.2.12.jpg)
+                        1. specify `e.target` as a `Node`
+                            1. ![](img/c02s21.2.13.jpg)
+        1. Verify
+            1. Test successful
+    1. Best Practices - removing event listeners
+        1. use event life cycles
+            1. `componentWillUnmount() {}`
+                1. ![](img/c02s21.2.14.jpg)
+        1. be sure to label function to easily attribute it
+            1. ![](img/c02s21.2.15.jpg)
             
 
 </details>
