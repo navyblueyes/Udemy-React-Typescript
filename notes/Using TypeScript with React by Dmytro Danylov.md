@@ -1854,6 +1854,26 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Handling original DOM events
+    1. DOM Event - clicking outside of cart => closing UI element 
+        1. Basic writeup 
+            1. ![](img/c02s21.1.jpg)
+        1. Unintended error
+            1. PROBLEM
+                1. if you click on cart... it goes away
+            1. SOLUTION
+                1. Establish a div container reference
+                    1. within class, create a private `ref` that refers to the parent object... `<div>`
+                        1. ![](img/c02s21.2.1.jpg)
+                    1. formally create the `ref` within `constructor()`
+                        1. ![](img/c02s21.2.2.jpg)
+                    1. implement on `<div>`
+                        1. ![](img/c02s21.2.3.jpg)
+                1. apply `if` logic to verify if the mouseClick was over the div reference
+                    1. ![](img/c02s21.2.4.jpg)
+                1. HOWEVER... `.current` can be `NULL`
+                    1. ![](img/c02s21.2.5.jpg)
+                1. Utilize `&&` logic to verify `!null`
+            
 
 </details>
 
