@@ -1825,8 +1825,6 @@ img[alt=pict08] {
                 1. ![](img/c02s19.4.8.jpg)
             1. after
                 1. ![](img/c02s19.4.9.jpg)
-            
-            
 
 </details>
 
@@ -1836,6 +1834,17 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Creating a custom hook
+    1. Exporting the `addToCart` function from `AddToCart.tsx`
+        1. Start with `export`
+            1. ![](img/c02s19.5.1.jpg)
+        1. Copy dispatch to exported function
+            1. ![](img/c02s19.5.2.jpg)
+            1. ![](img/c02s19.5.3.jpg)
+        1. Specify `return`
+            1. ![](img/c02s19.5.4.jpg)
+    1. Implementing `useAddToCart`
+        1. ![](img/c02s19.5.5.jpg)
+        
 
 </details>
 
