@@ -1816,6 +1816,16 @@ img[alt=pict08] {
                 1. ![](img/c02s19.4.5.jpg)
         1. Using `<WithAddToCartProps>`
             1. ![](img/c02s19.4.4.jpg)
+                1. ![](img/c02s19.4.10.jpg)
+        1. Replace `handleAddToCartClick`
+            1. ![](img/c02s19.4.6.jpg)
+                1. ![](img/c02s19.4.7.jpg)
+        1. No longer need to `AddToCartProps`
+            1. before
+                1. ![](img/c02s19.4.8.jpg)
+            1. after
+                1. ![](img/c02s19.4.9.jpg)
+            
             
 
 </details>
