@@ -1813,8 +1813,9 @@ img[alt=pict08] {
             1. Before
                 1. ![](img/c02s19.4.3.jpg)
             1. After
-                1. 
-        1. asdf
+                1. ![](img/c02s19.4.5.jpg)
+        1. Using `<WithAddToCartProps>`
+            1. ![](img/c02s19.4.4.jpg)
             
 
 </details>
