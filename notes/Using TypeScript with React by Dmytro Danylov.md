@@ -1876,6 +1876,9 @@ img[alt=pict08] {
                         1. need to verify if click event is outside of container
                 1. Utilize `&&` logic to verify `!null`
                     1. ... and ... need to verify click event is outside of container
+                        1. utilize `Node.contains()`
+                            1. ![](img/c02s21.2.8.jpg)
+                            1. ![](img/c02s21.2.9.jpg)
                     1. specifying event
                         1. ![](img/c02s21.2.6.jpg)
                     1. ![](img/c02s21.2.7.jpg)
