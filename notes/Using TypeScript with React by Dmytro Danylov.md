@@ -1997,6 +1997,15 @@ img[alt=pict08] {
             1. Better css
                 1. Normalize
                     1. ![](img/c02s22.1.8.jpg)
+                    1. ![](img/c02s22.1.9.jpg)
+            1. test the trimmed 
+                1. `npm test`
+                    1. Error b/c test expects original react app
+                        1. ![](img/c02s22.1.10.jpg)
+                1. fixing `App.test.tsx`
+                    1. training test to look for `Hello` text
+                        1. ![](img/c02s22.1.11.jpg)
+                    
                     
 
 
