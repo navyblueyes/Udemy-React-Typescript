@@ -1912,109 +1912,11 @@ img[alt=pict08] {
 
 
 
-#### Section 3 LEGACY React With TypeScript
-
-<details>
-<summary>Expand</summary>
-
-##### Introduction
-
-<details>
-<summary>Expand</summary>
-
-1. Introduction
-
-</details>
-
-##### Function Components
-
-<details>
-<summary>Expand</summary>
-
-1. Function Components
-
-</details>
-
-##### Class Components
-
-<details>
-<summary>Expand</summary>
-
-1. Class Components
-
-</details>
-
-##### Higher Order Components - React Redux
-
-<details>
-<summary>Expand</summary>
-
-1. Higher Order Components - React Redux
-
-</details>
-
-##### Higher Order Components - Creating HOCs
-
-<details>
-<summary>Expand</summary>
-
-1. Higher Order Components - Creating HOCs
-
-</details>
-
-##### Render Props
-
-<details>
-<summary>Expand</summary>
-
-1. Render Props
-
-</details>
-
-##### Event Handling
-
-<details>
-<summary>Expand</summary>
-
-1. Event Handling
-
-</details>
-
-##### Introduction to Hooks
-
-<details>
-<summary>Expand</summary>
-
-1. Introduction to Hooks
-
-</details>
-
-##### Hooks: useState
-
-<details>
-<summary>Expand</summary>
-
-1. Hooks: useState
-
-</details>
-
-##### Hooks: useEffect
-
-<details>
-<summary>Expand</summary>
-
-1. Hooks: useEffect
-
-</details>
-
-</details>
-
-<hr />
-
 
 
 
 #### Section 3 Building a React Redux App
+
 
 <details>
 <summary>Expand</summary>
@@ -2025,6 +1927,21 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Building a React Redux App Section Introduction
+    1. Initial setup
+        1. `create-react-app` with TS
+        1. `create-react-app` integration with TS
+            1. 
+        1. trimming `create-react-app`
+            1. 
+    1. 
+
+<details>
+<summary>Expand</summary>
+ 
+1. Documentation
+    1. ![](img/c02s22.1.1.jpg.png) 
+
+</details>
 
 </details>
 
