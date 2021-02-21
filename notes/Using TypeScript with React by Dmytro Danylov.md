@@ -2111,7 +2111,7 @@ img[alt=pict08] {
                 1. review
                     1. ![](img/c03s3.2.5.jpg)
                 1. PROBLEM - userEvents is `any`
-                    1. look at the source... `userEventsReducer` from `user-events.ts `
+                    1. look at the source... `userEventsState` from `user-events.ts `
                         1. ![](img/c03s3.2.6..jpg)
                     1. research about what an event holds
                         1. ![](img/c03s3.2.7.jpg)
@@ -2127,6 +2127,25 @@ img[alt=pict08] {
                             1. merely add square brackets
                             1. check
                                 1. ![](img/c03s3.2.10.jpg)
+                1. defining `state` and `action`
+                    1. ![](img/c03s3.2.12.jpg)
+                1. prime the reducer with an empty initial state
+                    1. ![](img/c03s3.2.13.jpg)
+                        1. ![](img/c03s3.2.14.jpg)
+            1. reducer completed; create store for its storage
+                1. within `store.ts`, verify `userEvent` type is read
+                    1. ![](img/c03s3.2.15.jpg)
+                1. create store with rootReducer
+                    1. ![](img/c03s3.2.16.jpg)
+                1. once `rootReducer` is created... need to type it
+                    1. inputs
+                        1. `rootReducer` already properly inferred reducer type
+                            1. ![](img/c03s3.2.17.jpg)
+                    1. return type of `rootReducer`
+                        1. you cannot use a `function` as a `type`
+                            1. ![](img/c03s3.2.18.jpg)
+                        1. you muse specify it with `typeof`
+                            1. ![](img/c03s3.2.19.jpg)
                         
     1. Initialize store
         1. 
