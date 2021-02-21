@@ -2163,39 +2163,32 @@ img[alt=pict08] {
 
 </details>
 
-##### Initial Setup
-
-<details>
-<summary>Expand</summary>
-
-1. Initial Setup
-
-</details>
-
-##### Setting Up a Fake Server
-
-<details>
-<summary>Expand</summary>
-
-1. Setting Up a Fake Server
-
-</details>
-
-##### Setting Up Redux
-
-<details>
-<summary>Expand</summary>
-
-1. Setting Up Redux
-
-</details>
-
 ##### Creating the Recorder Component
 
 <details>
 <summary>Expand</summary>
 
 1. Creating the Recorder Component
+    1. Component HTML
+        1. Boilerplate
+            1. `Recorder.tsx`
+                1. ![](img/c03s4.1.1.jpg)
+            1. `index.ts`
+                1. ![](img/c03s4.1.2.jpg)
+        1. Dry-feed into `Recorder.tsx`
+            1. ![](img/c03s4.1.3.jpg)
+            1. ![](img/c03s4.1.4.jpg)
+            1. ![](img/c03s4.1.5.jpg)
+    1. Recorder Feature's actions/reducer
+        1. Capturing start and stop click action
+            1. start with `recorder.ts` as a reducer
+                1. ![](img/c03s4.1.6.jpg)
+    1. Recorder Feature's start action dispatch
+        1. 
+    1. Recorder Feature's interval counter
+        1. 
+    1. Recorder Feature's stop action dispatch
+        1. 
 
 </details>
 
