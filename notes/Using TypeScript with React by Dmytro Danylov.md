@@ -1981,7 +1981,15 @@ img[alt=pict08] {
                             1. relegates TSC to mere type-checking
                                 1. `react-scripts` utilizes Babel to build to final bundle
         1. trimming `create-react-app`
-            1. 
+            1. `Index.tsx`
+                1. First thing -- remove `serverWorker`
+                    1. ![](img/c02s22.1.3.jpg)
+            1. `.prettierrc`
+                1. Enforce single-quote marks for strings
+                    1. ![](img/c02s22.1.4.jpg)
+            1. `App.tsx`
+                1. Remove
+                    1. ![](img/c02s22.1.5.jpg)
 
 
 1. Adding TS to React Documentation
