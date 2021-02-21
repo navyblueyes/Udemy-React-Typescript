@@ -2005,11 +2005,14 @@ img[alt=pict08] {
                 1. fixing `App.test.tsx`
                     1. training test to look for `Hello` text
                         1. ![](img/c02s22.1.11.jpg)
-                    
-                    
-
-
-1. Adding TS to React Documentation
+                1. re-run and check
+                    1. ![](img/c02s22.1.12.jpg)
+            1. run it
+                1. ![](img/c02s22.1.13.jpg)
+            1. check browser output / console
+                1. ![](img/c02s22.1.14.jpg)
+                
+1. React Documentation for TypeScript
 
 <details>
 <summary>Expand</summary>
@@ -2017,6 +2020,22 @@ img[alt=pict08] {
 1. ![](img/c02s22.1.1.jpg.png) 
 
 </details>
+
+</details>
+
+##### Setting up Fake Server
+
+<details>
+<summary>Expand</summary>
+
+1. Setting up Fake Server
+    1. install/configure fake-server demo
+        1. json-server
+            1. ![](img/c03s2.1.1.jpg)
+    1. query with cli demo
+        1. 
+    1. running cra/fake-server concurrently demo
+        1. 
 
 </details>
 
