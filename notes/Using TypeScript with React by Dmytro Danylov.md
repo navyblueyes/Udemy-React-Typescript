@@ -2089,7 +2089,32 @@ img[alt=pict08] {
             1. basic
                 1. file to combine reducers from other files
             1. general layout
-                1. ![](img/c03s3.2.2.jpg)
+                1. ![](img/c03s3.2.2.jpg) 
+            1. whenever utilizing a function -- check doc
+                1. ![](img/c03s3.2.3.jpg)
+                    1. `<S>` represents root state
+                        1. root state is an object
+                            1. key is part of the state
+                            1. value is return value from reducer
+                    1. `(reducers: ReducersMapObject<S, any>)`
+                        1. `reducers` is the defined type 
+                        1. `ReducersMapObject` is the type as we release our child reducers
+                    1. `: Reducer<CombinedState<S>, AnyAction>`
+                        1. the product of the combineReducers
+                            1. generates a `Reducer`
+                                1. that manages the `CombinedState<S>`, 
+                                    1. or takes in the root state and calls relevant 
+                                1. and allows `AnyAction`
+            1. adding `userEvents`'s reducer
+                1. add the userEvent
+                    1. ![](img/c03s3.2.4.jpg)
+                1. review
+                    1. ![](img/c03s3.2.5.jpg)
+                1. PROBLEM - userEvents is `any`
+                    1. look at the source... `userEventsReducer` from `user-events.ts `
+                        1. ![](img/c03s3.2.6..jpg)
+                    1. research about what an event holds
+                        1. ![](img/c03s3.2.7.jpg)
     1. Initialize store
         1. 
     1. Root State Type
