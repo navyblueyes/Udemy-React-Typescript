@@ -2188,9 +2188,15 @@ img[alt=pict08] {
                     1. ![](img/c03s4.1.7.jpg)
                 1. `action` will store the case: start / stop
                     1. need to define a `type`
-                    1. need to define a `function` as an action
+                        1. ![](img/c03s4.1.11.jpg)
+                        1. verify
+                            1. ![](img/c03s4.1.12.jpg)
+                    1. need to use a function to set action `type`
+                        1. ![](img/c03s4.1.8.jpg)
                     1. need to set action as parameter for recorder
-                    1. need to utilize 
+                        1. ![](img/c03s4.1.9.jpg)
+                    1. need to utilize switch case
+                        1. ![](img/c03s4.1.10.jpg)
     1. Recorder Feature's start action dispatch
         1. 
     1. Recorder Feature's interval counter
