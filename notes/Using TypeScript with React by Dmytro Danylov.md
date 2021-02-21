@@ -2156,6 +2156,10 @@ img[alt=pict08] {
         1. Properly import `Provider`
             1. ![](img/c03s3.6.1.jpg)
                 1. ![](img/c03s3.6.2.jpg)
+        1. Statically `-S` install the type definitions
+            1. ![](img/c03s3.6.3.jpg)
+        1. Properly configure `<Provider>` with `store`
+            1. ![](img/c03s3.6.4.jpg)
 
 </details>
 
