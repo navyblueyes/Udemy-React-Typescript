@@ -2032,8 +2032,23 @@ img[alt=pict08] {
     1. install/configure fake-server demo
         1. json-server
             1. ![](img/c03s2.1.1.jpg)
+                1. reads a JSON doc  
+                1. presents JSON as a fetch-able document
+        1. create readable JSON
+            1. skeleton format
+                1. ![](img/c03s2.1.2.jpg)
+            1. ISO format - 
+                1. readable data format 
+                    1. typically for dates
+                1. getting date via `Date().toISOString()`
+                    1. ![](img/c03s2.1.3.jpg)
+                1. inputting with one hour later
+                    1. ![](img/c03s2.1.4.jpg)
+        1. run `json-server` and set it to watch the JSON document
+            1. ![](img/c03s2.1.5.jpg) 
     1. query with cli demo
-        1. 
+        1. `curl` the server
+            1. ![](img/c03s2.1.6.jpg)
     1. running cra/fake-server concurrently demo
         1. 
 
