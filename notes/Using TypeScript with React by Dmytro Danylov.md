@@ -2049,8 +2049,19 @@ img[alt=pict08] {
     1. query with cli demo
         1. `curl` the server
             1. ![](img/c03s2.1.6.jpg)
+        1. `curl` with a POST msg
+            1. ![](img/c03s2.1.7.jpg)
+                1. ![](img/c03s2.1.9.jpg)
     1. running cra/fake-server concurrently demo
-        1. 
+        1. run cra
+            1. ![](img/c03s2.1.8.jpg)
+        1. managing via conncurenntly
+            1. install concurrently
+                1. ![](img/c03s2.1.10.jpg)
+            1. run via concurrently
+                1. ![](img/c03s2.1.11.jpg)
+            1. formalize into a script on package.json
+                1. ![](img/c03s2.1.12.jpg)
 
 </details>
 
