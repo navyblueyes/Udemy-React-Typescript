@@ -2183,6 +2183,14 @@ img[alt=pict08] {
         1. Capturing start and stop click action
             1. start with `recorder.ts` as a reducer
                 1. ![](img/c03s4.1.6.jpg)
+            1. think of what will the `state` and `action` have to be
+                1. `state` will store the time of the click function
+                    1. ![](img/c03s4.1.7.jpg)
+                1. `action` will store the case: start / stop
+                    1. need to define a `type`
+                    1. need to define a `function` as an action
+                    1. need to set action as parameter for recorder
+                    1. need to utilize 
     1. Recorder Feature's start action dispatch
         1. 
     1. Recorder Feature's interval counter
