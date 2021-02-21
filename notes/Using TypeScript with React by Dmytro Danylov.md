@@ -1990,6 +1990,14 @@ img[alt=pict08] {
             1. `App.tsx`
                 1. Remove
                     1. ![](img/c02s22.1.5.jpg)
+                    1. ![](img/c02s22.1.6.jpg)
+            1. Better Organization
+                1. Create `src/components/App` and move all `App` files there
+                    1. ![](img/c02s22.1.7.jpg)
+            1. Better css
+                1. Normalize
+                    1. ![](img/c02s22.1.8.jpg)
+                    
 
 
 1. Adding TS to React Documentation
