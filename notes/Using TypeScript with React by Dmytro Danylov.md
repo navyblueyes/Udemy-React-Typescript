@@ -2132,27 +2132,30 @@ img[alt=pict08] {
                 1. prime the reducer with an empty initial state
                     1. ![](img/c03s3.2.13.jpg)
                         1. ![](img/c03s3.2.14.jpg)
-            1. reducer completed; create store for its storage
-                1. within `store.ts`, verify `userEvent` type is read
-                    1. ![](img/c03s3.2.15.jpg)
-                1. create store with rootReducer
-                    1. ![](img/c03s3.2.16.jpg)
-                1. once `rootReducer` is created... need to type it
-                    1. inputs
-                        1. `rootReducer` already properly inferred reducer type
-                            1. ![](img/c03s3.2.17.jpg)
-                    1. return type of `rootReducer`
-                        1. you cannot use a `function` as a `type`
-                            1. ![](img/c03s3.2.18.jpg)
-                        1. you muse specify it with `typeof`
-                            1. ![](img/c03s3.2.19.jpg)
                         
     1. Initialize store
-        1. 
+        1. reducer completed; create store for its storage
+            1. within `store.ts`, verify `userEvent` type is read
+                1. ![](img/c03s3.2.15.jpg)
+            1. create store with rootReducer
+                1. ![](img/c03s3.2.16.jpg)
     1. Root State Type
-        1. 
+        1. once `rootReducer` is created... need to type it
+            1. inputs
+                1. `rootReducer` already properly inferred reducer type
+                    1. ![](img/c03s3.2.17.jpg)
+            1. return type of `rootReducer`
+                1. you cannot use a `function` as a `type`
+                    1. ![](img/c03s3.2.18.jpg)
+                1. you muse specify it with `typeof`
+                    1. ![](img/c03s3.2.19.jpg)
     1. Provider Component
-        1. 
+        1. `Provider` should be implemented at the Highest level needed
+            1. Because it is the root of the app... utilize at `index.tsx`
+                1. ![](img/c03s3.2.20.jpg)
+        1. Properly import `Provider`
+            1. ![](img/c03s3.6.1.jpg)
+                1. ![](img/c03s3.6.2.jpg)
 
 </details>
 
