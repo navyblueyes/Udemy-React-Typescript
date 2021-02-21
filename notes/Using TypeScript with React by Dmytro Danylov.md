@@ -2191,14 +2191,27 @@ img[alt=pict08] {
                         1. ![](img/c03s4.1.11.jpg)
                         1. verify
                             1. ![](img/c03s4.1.12.jpg)
-                    1. need to use a function to set action `type`
+                    1. need to make action creators that designate `type`
                         1. ![](img/c03s4.1.8.jpg)
                     1. need to set action as parameter for recorder
                         1. ![](img/c03s4.1.9.jpg)
                     1. need to utilize switch case
                         1. ![](img/c03s4.1.10.jpg)
+        1. Setting initial state for state
+            1. ![](img/c03s4.1.13.jpg)
     1. Recorder Feature's start action dispatch
+        1. Set up UI feature to `dispatch` the start/stop in `Recorder.tsx`
+            1. expect a click --> setup a onClick function
+                1. ![](img/c03s4.1.14.jpg)
+            1. inside of `onClick`... send a dispatch
+                1. ![](img/c03s4.1.15.jpg)
+        1. Set up a responsive UI
+            1. consider using `useEffect` to depend on state change
         1. 
+            1. Consider using `useSelector`
+                1. ![](img/c03s4.3.1.jpg)
+                    1. logic that is dependent on rootState
+            1. 
     1. Recorder Feature's interval counter
         1. 
     1. Recorder Feature's stop action dispatch
