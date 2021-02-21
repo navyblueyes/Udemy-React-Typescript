@@ -1929,17 +1929,67 @@ img[alt=pict08] {
 1. Building a React Redux App Section Introduction
     1. Initial setup
         1. `create-react-app` with TS
+            1. ![](img/c02s22.1.2.jpg)
         1. `create-react-app` integration with TS
-            1. 
+            1. immediately start on `tsconfig.json`
+                1. `compilerOptions`
+                    1. all options that run when `tsc` runs
+                1. `target`
+                    1. exported JS; `es5` is a safe choice for browsers
+                1. `lib`
+                    1. type definitions to be used in compiling; 
+                        1. `dom` is required for DOM javascript; 
+                        1. `esnext` if you want to use latest javascript
+                1. `allowJs`
+                    1.  
+                1. `skipLibCheck`
+                    1. NOT type-check external packages; 
+                        1. think like React library
+                            1. it doesn't not need type-checking
+                    1. Benefits
+                        1. prevents you from compiling the libraries
+                            1. leading to faster compilation
+                1. `esModuleInterop`
+                    1. work around for ES modules
+                        1. ES modules did NOT `default export`
+                            1. `default export` is required for TS
+                    1. setting up `esModuleInterop`
+                        1. enables to work around ES modules that do NOT have `default export`
+                1. `strict`
+                    1. Forces you to avoid bad practices
+                1. `module`
+                    1. established input JS 
+                1. `moduleResolution`
+                    1. what JS you are using to compile JS
+                        1. typically `node`
+                1. `resolveJsonModule`
+                    1. by default in TS
+                        1. JSON is not available for importing
+                    1. `resolveJsonModule` allows you to utilize JSON
+                        1. allows TS to type-check as they are imported
+                1. `isolatedModules`
+                    1. Forces TSC to compile like Babel
+                        1. Babel compiles module one-by-one
+                        1. TSC tries to map the entire dependencies between modules
+                            1. sometimes it is better to NOT map ALL the dependencies... especially in development
+                        1. `isolatedModules` forces TSC to compile external modules one at a time.
+                1. `noEmit`
+                    1. CRA does NOT use TSC to compile JS to es5
+                        1. TSC utilizes `Babel` via `@bable/plugin-transform-typescript`
+                            1. `noEmit` prevents TSC from generating final bundle, 
+                                1. allowing Babel to do the job
+                            1. relegates TSC to mere type-checking
+                                1. `react-scripts` utilizes Babel to build to final bundle
         1. trimming `create-react-app`
             1. 
-    1. 
+
+
+1. Adding TS to React Documentation
 
 <details>
 <summary>Expand</summary>
- 
-1. Documentation
-    1. ![](img/c02s22.1.1.jpg.png) 
+
+1. ![](img/c02s22.1.1.jpg.png) 
 
 </details>
 
