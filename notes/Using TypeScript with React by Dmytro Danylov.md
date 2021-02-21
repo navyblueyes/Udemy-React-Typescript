@@ -2071,6 +2071,31 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. What if you haven't used Redux before?
+    1. Install Redux
+        1. install into dev
+            1. ![](img/c03s3.1.1.jpg)
+    1. Create reducer
+        1. Overall structure
+            1. Ducks Pattern
+                1. Each file contains a feature
+                1. Reducers / selectors / events are stored 
+        1. First capacity - User Events 
+            1. user create/edit/delete events
+        1. `user-events.ts`
+            1. general layout
+                1. function with expor
+                    1. ![](img/c03s3.2.1.jpg)
+        1. `store.ts`
+            1. basic
+                1. file to combine reducers from other files
+            1. general layout
+                1. ![](img/c03s3.2.2.jpg)
+    1. Initialize store
+        1. 
+    1. Root State Type
+        1. 
+    1. Provider Component
+        1. 
 
 </details>
 
