@@ -2115,6 +2115,19 @@ img[alt=pict08] {
                         1. ![](img/c03s3.2.6..jpg)
                     1. research about what an event holds
                         1. ![](img/c03s3.2.7.jpg)
+                    1. define `event` within an `interface` within `user-events.ts`
+                        1. ![](img/c03s3.2.8.jpg)
+                1. PROBLEM - userEventsReducer is also `any`
+                    1. must define what the `reducer` for `userEvent` would look like when put into store
+                        1. ![](img/c03s3.2.9.jpg)
+                            1. defined a action where reducer is indexed invidually by `id`
+                                1. `id` is extracted by `UserEvent['id']`
+                    1. must have an array of all the indexed actions
+                        1.![](img/c03s3.2.11.jpg)
+                            1. merely add square brackets
+                            1. check
+                                1. ![](img/c03s3.2.10.jpg)
+                        
     1. Initialize store
         1. 
     1. Root State Type
