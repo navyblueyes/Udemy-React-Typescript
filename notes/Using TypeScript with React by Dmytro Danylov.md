@@ -2191,42 +2191,33 @@ img[alt=pict08] {
                         1. ![](img/c03s4.1.11.jpg)
                         1. verify
                             1. ![](img/c03s4.1.12.jpg)
-                    1. need to make action creators that designate `type`
+                    1. need to make action creators that designate `action.type`
                         1. ![](img/c03s4.1.8.jpg)
-                    1. need to set action as parameter for recorder
+                    1. need to set `action` and `state` as parameter for reducer
                         1. ![](img/c03s4.1.9.jpg)
-                    1. need to utilize switch case
-                        1. ![](img/c03s4.1.10.jpg)
-        1. Setting initial state for state
+                    1. start / stop action have been defined...
+                        1. need to show what to do with them... in a `switch` case
+                            1. ![](img/c03s4.1.10.jpg)
+        1. Notice that we use `...state`.... must establish inital state to load
             1. ![](img/c03s4.1.13.jpg)
     1. Recorder Feature's start action dispatch
-        1. Set up UI feature to `dispatch` the start/stop in `Recorder.tsx`
-            1. expect a click --> setup a onClick function
+        1. `Recorder.tsx` will hold the UI for client interaction
+            1. instead of holding a function
+                1. it will `dispatch` the function to the reducer
+            1. need to setup `Recorder.tsx` to hold `dispatch`
+                1. will
+        1. Expect the client to `click` on start/stop `button` in `Recorder.tsx`
+            1. click --> setup a onClick function
                 1. ![](img/c03s4.1.14.jpg)
             1. inside of `onClick`... send a dispatch
                 1. ![](img/c03s4.1.15.jpg)
+        1. When button is clicked... nothing happens
+            1. Why?
+                1. `Recorder.tsx` is decoupled from `store.ts`
+                    1. a change in state in `store.ts` is NOT affecting `Recorder.tsx`
+            1. Solution --
         1. Set up a responsive UI
-            1. consider using `useEffect` to depend on state change
-        1. 
-            1. Consider using `useSelector`
-                1. ![](img/c03s4.3.1.jpg)
-                    1. logic that is dependent on rootState
-            1. 
-    1. Recorder Feature's interval counter
-        1. 
-    1. Recorder Feature's stop action dispatch
-        1. 
-
-</details>
-
-##### Creating the Event List Component
-
-<details>
-<summary>Expand</summary>
-
-1. Creating the Event List Component
-
-</details>
+            1. consider using
 
 ##### Loading Events - Part 1
 
