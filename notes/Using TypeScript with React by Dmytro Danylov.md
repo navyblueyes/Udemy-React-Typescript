@@ -2214,8 +2214,33 @@ img[alt=pict08] {
         1. When button is clicked... nothing happens
             1. Why?
                 1. `Recorder.tsx` is decoupled from `store.ts`
-                    1. a change in state in `store.ts` is NOT affecting `Recorder.tsx`
-            1. Solution --
+                    1. a change in state in `store.ts` is NOT affecting `Recorder.tsx` UI
+            1. Solution -- get `Recorder.tsx` to read the state from `store.ts`
+                1. Read the `datestart`
+                    1. Source of `datestart`
+                        1. ![](img/c03s4.6.5.jpgg.png)
+                    1. To read state... utilize `useSelector()`
+                        1. highlight to read documentation about `useSelector()`
+                            1. ![](img/c03s4.6.6.jpg)
+                            1. ![](img/c03s4.6.7.jpg)
+                        1. things to remember 
+                            1. parameters
+                                1. takes in the ENTIRE rootstate `TState`
+                                1. takes in the DESIRED state `TSelected`
+                            1. function
+                                1. `equalityFn` is a boolean comparison
+                    1. implement useSelector 
+                        1. interface of `RecoderState.dateStart`
+                            1. ![](img/c03s4.6.8.jpg)
+                        1. starting
+                            1. ![](img/c03s4.6.9.jpg)
+                        1. solving the issue of NOT RECOGNIZING `.recorder`
+                            1. go into the `store.ts` and add `recorder` to the `rootReducer`
+                                1. ![](img/c03s4.6.10.jpg)
+                            1. verify by checking `RootState` inside of `store.ts`
+                                1. ![](img/c03s4.6.11.jpg)
+                        1. ver
+                    
         1. Set up a responsive UI
             1. consider using
 
