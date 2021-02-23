@@ -2282,8 +2282,31 @@ img[alt=pict08] {
                 1. After
                     1. ![](img/c03s4.7.10.jpg)
                         1. Button changes and counter fades in
-        1. Set up a responsive UI
-            1. consider using
+        1. Timing - with `setInterval()`
+            1. Documentation
+                1. ![](img/c03s4.8.1.jpg)
+            1. Basics
+                1. storing variable `interval`within function of `Recorder`  
+                    1. ![](img/c03s4.8.2.jpg)
+                1. utilize `.setInterval()` with 1000 millisecond delay
+                    1. ![](img/c03s4.8.3.jpg)
+                1. PROBLEM
+                    1. whenever a re-render occurs...
+                        1. `let interval` is triggered and nullifies `interval`
+                    1. SOLUTION
+                        1. utilize `useRef` that has a default value of `0`
+                            1. ![](img/c03s4.8.4.jpg)
+                        1. more benefits of `useRef`
+                            1. able to get `useRef.current` or `interval.current` at any lifecycle
+                        1. REMEMBER... `useRef` is an object
+                            1. ![](img/c03s4.8.6.jpg)
+                            1. `.current` it the storage of the object
+                            
+                1. implement `useRef`
+                    1. useRef will hold the `inverval` variable
+                        1. ![](img/c03s4.8.5.jpg)
+                    1. ... and set it's `.current` property to `window.setInterval(`
+            
 
 ##### Loading Events - Part 1
 
