@@ -2255,7 +2255,7 @@ img[alt=pict08] {
                     1. using `useSelector` to indicate if timer has started
                         1. within `Recorder.tsx`
                             1. ![](img/c03s4.6.16.jpg)
-                                1. `dateStart` indicates ``
+                                1. `dateStart` indicates `true`
                                     1. if clock is running
                                 1. `dateStart` indicates `false`
                                     1. if clock is NOT running
@@ -2265,10 +2265,23 @@ img[alt=pict08] {
                     1. How to use...
                         1. ![](img/c03s4.7.2.jpg)
                         1. ![](img/c03s4.7.3.jpg)
-            1. implementing to conditionally include `dateStart`
+            1. implementing to conditionally include CSS `recorder-started` when `dateStart`
                 1. install `classnames` and store as variable `cx`
                     1. ![](img/c03s4.7.4.jpg)
-                        
+                1. PROBLEM -- no type declarations
+                    1. red line means problem
+                        1. ![](img/c03s4.7.5.jpg)
+                    1. SOLUTION
+                        1. It is in the description
+                            1. ![](img/c03s4.7.6.jpg)
+                        1. Console
+                            1. ![](img/c03s4.7.7.jpg) 
+            1. Testing 
+                1. Before
+                    1. ![](img/c03s4.7.9.jpg)
+                1. After
+                    1. ![](img/c03s4.7.10.jpg)
+                        1. Button changes and counter fades in
         1. Set up a responsive UI
             1. consider using
 
