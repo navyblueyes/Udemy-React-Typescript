@@ -2217,7 +2217,7 @@ img[alt=pict08] {
                     1. a change in state in `store.ts` is NOT affecting `Recorder.tsx` UI
             1. Solution -- get `Recorder.tsx` to read the state from `store.ts`
                 1. Read the `datestart`
-                    1. Source of `datestart`
+                    1. Source of `datestart` wihtin `recorder.ts`
                         1. ![](img/c03s4.6.5.jpgg.png)
                     1. To read state... utilize `useSelector()`
                         1. highlight to read documentation about `useSelector()`
@@ -2229,18 +2229,46 @@ img[alt=pict08] {
                                 1. takes in the DESIRED state `TSelected`
                             1. function
                                 1. `equalityFn` is a boolean comparison
-                    1. implement useSelector 
-                        1. interface of `RecoderState.dateStart`
-                            1. ![](img/c03s4.6.8.jpg)
-                        1. starting
-                            1. ![](img/c03s4.6.9.jpg)
-                        1. solving the issue of NOT RECOGNIZING `.recorder`
-                            1. go into the `store.ts` and add `recorder` to the `rootReducer`
-                                1. ![](img/c03s4.6.10.jpg)
-                            1. verify by checking `RootState` inside of `store.ts`
-                                1. ![](img/c03s4.6.11.jpg)
-                        1. ver
-                    
+                    1. defining useSelector 
+                        1. within `recorder.ts`
+                            1. interface of `RecoderState.dateStart`
+                                1. ![](img/c03s4.6.8.jpg)
+                            1. starting
+                                1. ![](img/c03s4.6.9.jpg)
+                            1. solving the issue of NOT RECOGNIZING `.recorder`
+                                1. in the `store.ts` 
+                                    1. add `recorder` to the `rootReducer`
+                                        1. ![](img/c03s4.6.10.jpg)
+                                    1. verify by checking `RootState` inside of `store.ts`
+                                        1. ![](img/c03s4.6.11.jpg)
+                            1. complete `selectDateStart` with new `rootState.recorder`
+                                1. ![](img/c03s4.6.12.jpg)
+                            1. since `.dateStart` is part of `.recorder`
+                                1. add selector for `.recorder`
+                                    1. ![](img/c03s4.6.13.jpg)
+                            1. shortening `selectDataStart` with `selectRecorderState`
+                                1. ![](img/c03s4.6.14.jpg)
+                    1. implemening useSelector
+                        1. within `Recorder.tsx`
+                            1. Utilize `useSelector()` with the `selectDateStart`
+                                1. ![](img/c03s4.6.15.jpg)
+                    1. using `useSelector` to indicate if timer has started
+                        1. within `Recorder.tsx`
+                            1. ![](img/c03s4.6.16.jpg)
+                                1. `dateStart` indicates ``
+                                    1. if clock is running
+                                1. `dateStart` indicates `false`
+                                    1. if clock is NOT running
+        1. adding modifiable classname
+            1. JS utility - `classnames`
+                1. ![](img/c03s4.7.1.jpg)
+                    1. How to use...
+                        1. ![](img/c03s4.7.2.jpg)
+                        1. ![](img/c03s4.7.3.jpg)
+            1. implementing to conditionally include `dateStart`
+                1. install `classnames` and store as variable `cx`
+                    1. ![](img/c03s4.7.4.jpg)
+                        
         1. Set up a responsive UI
             1. consider using
 
