@@ -2301,12 +2301,50 @@ img[alt=pict08] {
                         1. REMEMBER... `useRef` is an object
                             1. ![](img/c03s4.8.6.jpg)
                             1. `.current` it the storage of the object
-                            
                 1. implement `useRef`
                     1. useRef will hold the `inverval` variable
                         1. ![](img/c03s4.8.5.jpg)
                     1. ... and set it's `.current` property to `window.setInterval(`
-            
+                        1. ![](img/c03s4.8.7.jpg)
+                    1. utilize `useState` to track `count`
+                        1. will be triggered by `.setInterval` ant a rate of `1000` milliseconds
+                            1. ![](img/c03s4.8.8.jpg)
+                        1. will initilize `count` within `setCount` b/c it is NOT USED prior to initilial setCount
+                            1. ![](img/c03s4.8.9.jpg)
+                1. Need to clear intervel on unmount of component
+                    1. `useEffect(() => {}, [])` is triggered on every lifecycle change... will trigger on unmount of component
+                        1. ![](img/c03s4.8.10.jpg)
+                1. With interval set... calculate `seconds`, `minutes`, `hours`
+                    1. start with `seconds`
+                        1. Substract `dateStart` from current time
+                            1. ![](img/c03s4.8.11.jpg)
+                        1. Divide by 1000 because ISO time is in milliseconds
+                            1. ![](img/c03s4.8.12.jpg)
+                        1. Whenever dividing... round to the bottom number with `Math.floor`
+                            1. ![](img/c03s4.8.13.jpg)
+                        1. ensure that timer is running with a ternary operator and the use Selector's `start` boolean
+                            1. ![](img/c03s4.8.14.jpg)
+                        1. remove `hours` and `minutes`
+                    1. then `hours`
+                        1. utilize a ternary that checks if seconds is greater than zero
+                            1. ![](img/c03s4.8.15.jpg)
+                    1. then `minutes`
+                        1. utilize a ternary that checks if seconds is greater than zero
+                            1. ![](img/c03s4.8.16.jpg)
+                    1. don't forget to subtract `hour` and `minutes` from `seconds`
+                        1. ![](img/c03s4.8.17.jpg)
+                            1. Ensures that seconds never gets past `59`
+                1. implement in UI
+                    1. ![](img/c03s4.8.18.jpg)
+            1. Fixing the UI
+                1. Clock is in single digits
+                    1. ![](img/c03s4.8.19.jpg)
+                1. Create a function that ternary checks... if single digits... adds a zero
+                    1. ![](img/c03s4.8.20.jpg)
+                1. Wrap each number with it
+                    1. ![](img/c03s4.8.21.jpg)
+                    
+                
 
 ##### Loading Events - Part 1
 
