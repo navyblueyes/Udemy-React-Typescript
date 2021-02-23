@@ -2285,7 +2285,7 @@ img[alt=pict08] {
         1. Timing - with `setInterval()`
             1. Documentation
                 1. ![](img/c03s4.8.1.jpg)
-            1. Basics
+            1. Start - Basics
                 1. storing variable `interval`within function of `Recorder`  
                     1. ![](img/c03s4.8.2.jpg)
                 1. utilize `.setInterval()` with 1000 millisecond delay
@@ -2342,7 +2342,13 @@ img[alt=pict08] {
                 1. Create a function that ternary checks... if single digits... adds a zero
                     1. ![](img/c03s4.8.20.jpg)
                 1. Wrap each number with it
-                    1. ![](img/c03s4.8.21.jpg)
+                    1. ![](img/c03s4.8.21.jpg) 
+            1. Stop - Basics
+                1. focus `stop` functionality within `handleClick` function
+                    1. Utilize a `if...else` that reads `started`
+                        1. if `true`
+                            1. `stop` dispatch and clear interval
+                            1. ![](img/c03s4.8.22.jpg)
                     
                 
 
