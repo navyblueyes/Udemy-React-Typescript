@@ -2358,7 +2358,24 @@ img[alt=pict08] {
 <summary>Expand</summary>
 
 1. Loading Events - Part 1
-
+    1. Calendar Events Components
+        1. Basic 
+            1. an editable title for recorded event
+            1. events are groups by days of the month
+            1. functional component
+        1. Structure
+            1. Calendar.tsx
+                1. what outcome should look like
+                    1. ![](img/c03s5.1.1.jpg)
+                1. <div> of `calendar-day`
+                    1. each with 
+                        1. a label
+                        1. event-info with...
+                            1. time
+                            1. title
+                            1. delete button
+            
+                    
 </details>
 
 ##### Loading Events - Part 2 (using connect)
